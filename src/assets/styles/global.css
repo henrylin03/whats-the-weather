@@ -23,7 +23,13 @@ b {
   font-weight: 600;
 }
 
+body {
+  width: 60vw;
+  margin: 0 auto;
+}
+
 /* header */
+
 #location-search {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
