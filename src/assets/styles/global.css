@@ -4,7 +4,7 @@
 :root {
   --dark-clr: hsl(203, 30%, 26%);
   --mid-clr: hsl(206, 46%, 37%);
-  --lighter-clr: hsl(201, 51%, 69%);
+  --lighter-clr: #88bcd8;
   --lightest-clr: hsl(203, 50%, 93%);
 }
 
@@ -47,4 +47,7 @@ header {
   flex: 2;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
+  border: #4283b3 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
