@@ -49,6 +49,9 @@ header {
   border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
   padding: 8px 10px;
+}
+
+#location-search:focus {
   box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
