@@ -66,6 +66,14 @@ header {
   font-weight: 500;
 }
 
+.unit-btn:hover {
+  filter: brightness(1.03) saturate(1.05);
+}
+
+.unit-btn:active {
+  filter: brightness(0.99) saturate(1.05);
+}
+
 .unit-btn.selected {
   color: white;
   background-color: var(--mid-clr);
