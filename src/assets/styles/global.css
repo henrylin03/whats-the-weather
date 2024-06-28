@@ -29,8 +29,18 @@ body {
 }
 
 /* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-name {
+  flex: 1;
+}
 
 #location-search {
+  flex: 2;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
 }
