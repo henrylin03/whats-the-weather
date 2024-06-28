@@ -63,6 +63,7 @@ header {
   background-color: hsl(202, 53%, 80%);
   padding: 10px 20px;
   float: left;
+  font-weight: 500;
 }
 
 .unit-btn.selected {
