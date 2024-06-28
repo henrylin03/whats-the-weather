@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+/* global styles */
 :root {
   --dark-clr: hsl(203, 30%, 26%);
   --mid-clr: hsl(206, 46%, 37%);
@@ -14,11 +15,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* header */
 h1 {
   font-weight: 300;
 }
 
 b {
   font-weight: 600;
+}
+
+/* header */
+#location-search {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
 }
