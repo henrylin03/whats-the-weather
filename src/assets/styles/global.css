@@ -46,7 +46,21 @@ header {
   max-width: 50%;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  border: #4283b3 1px solid;
+  border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
   padding: 8px 10px;
+}
+
+.unit-btns button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.unit-btns button:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.unit-btn {
+  background-color: hsl(202, 53%, 80%);
+  padding: 10px 20px;
+  float: left;
 }
