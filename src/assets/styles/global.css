@@ -4,7 +4,7 @@
 :root {
   --dark-clr: hsl(203, 30%, 26%);
   --mid-clr: hsl(206, 46%, 37%);
-  --lighter-clr: #88bcd8;
+  --lighter-clr: hsl(201, 51%, 69%);
   --lightest-clr: hsl(203, 90%, 93%);
 }
 
@@ -52,15 +52,20 @@ header {
 }
 
 .unit-btns button:first-child {
-  border-radius: 5px 0 0 5px;
+  border-radius: 10px 0 0 10px;
 }
 
 .unit-btns button:last-child {
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .unit-btn {
   background-color: hsl(202, 53%, 80%);
   padding: 10px 20px;
   float: left;
+}
+
+.unit-btn.selected {
+  color: white;
+  background-color: var(--mid-clr);
 }
