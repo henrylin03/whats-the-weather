@@ -28,6 +28,7 @@ body {
   height: 100dvh;
   width: 60dvw;
   margin: 0 auto;
+  background: linear-gradient(var(--lightest-clr) 40%, white);
 }
 
 /* header */
