@@ -41,22 +41,12 @@ header {
   padding: 30px 0;
 }
 
-.searchbar-wrapper {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-}
-
 #location-search {
-  width: 80%;
+  flex: 2;
+  max-width: 50%;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   border: #4283b3 1px solid;
   border-radius: 5px;
   padding: 8px 10px;
-}
-
-#location-search:focus {
-  border-width: 2px;
-  filter: saturate(200%);
 }
