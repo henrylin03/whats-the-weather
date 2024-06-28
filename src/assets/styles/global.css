@@ -5,7 +5,7 @@
   --dark-clr: hsl(203, 30%, 26%);
   --mid-clr: hsl(206, 46%, 37%);
   --lighter-clr: #88bcd8;
-  --lightest-clr: hsl(203, 50%, 93%);
+  --lightest-clr: hsl(203, 90%, 93%);
 }
 
 * {
@@ -28,7 +28,7 @@ body {
   height: 100dvh;
   width: 60dvw;
   margin: 0 auto;
-  background: linear-gradient(var(--lightest-clr) 40%, white);
+  background: linear-gradient(var(--lightest-clr), white);
 }
 
 /* header */
