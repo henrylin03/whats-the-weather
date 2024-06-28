@@ -1,3 +1,10 @@
+:root {
+  --dark-clr: hsl(203, 30%, 26%);
+  --mid-clr: hsl(206, 46%, 37%);
+  --lighter-clr: hsl(201, 51%, 69%);
+  --lightest-clr: hsl(203, 50%, 93%);
+}
+
 * {
   margin: 0;
   padding: 0;
