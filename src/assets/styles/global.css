@@ -55,3 +55,8 @@ header {
   border-radius: 5px;
   padding: 8px 10px;
 }
+
+#location-search:focus {
+  border-width: 2px;
+  filter: saturate(200%);
+}
