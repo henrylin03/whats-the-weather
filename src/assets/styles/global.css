@@ -24,7 +24,8 @@ b {
 }
 
 body {
-  width: 60vw;
+  height: 100dvh;
+  width: 60dvw;
   margin: 0 auto;
 }
 
