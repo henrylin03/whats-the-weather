@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-/* global styles */
 :root {
   --dark-clr: hsl(203, 30%, 26%);
   --mid-clr: hsl(206, 46%, 37%);
@@ -30,61 +29,4 @@ body {
   width: 60dvw;
   margin: 0 auto;
   background: linear-gradient(var(--lightest-clr), white);
-}
-
-/* header */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  padding: 30px 0;
-}
-
-#location-search {
-  flex: 2;
-  max-width: 50%;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.85rem;
-  border: hsl(205, 46%, 48%) 1px solid;
-  border-radius: 5px;
-  padding: 8px 13px;
-}
-
-#location-search:focus {
-  box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.unit-btns {
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
-}
-
-.unit-btns button:first-child {
-  border-radius: 10px 0 0 10px;
-}
-
-.unit-btns button:last-child {
-  border-radius: 0 10px 10px 0;
-}
-
-.unit-btn {
-  background-color: hsl(202, 53%, 80%);
-  padding: 10px 20px;
-  float: left;
-  font-weight: 500;
-  transition: filter 0.1s;
-}
-
-.unit-btn:hover {
-  filter: brightness(1.03) saturate(1.05);
-}
-
-.unit-btn:active {
-  filter: brightness(0.99) saturate(1.05);
-}
-
-.unit-btn.selected {
-  color: white;
-  background-color: var(--mid-clr);
 }
