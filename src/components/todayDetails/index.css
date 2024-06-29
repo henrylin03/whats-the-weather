@@ -5,5 +5,7 @@
 #today-details {
   height: 40dvh;
   background: linear-gradient(var(--gradient-top-clr), var(--lighter-clr));
+  border-radius: 10px;
+  box-shadow: var(--darker-shadow);
   display: flex;
 }
