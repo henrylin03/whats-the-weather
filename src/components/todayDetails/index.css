@@ -14,6 +14,11 @@
   padding: 25px 40px;
 }
 
+#today-details .left {
+  display: flex;
+  align-items: flex-end;
+}
+
 #today-details .weather {
   display: flex;
   flex-direction: column;
