@@ -48,3 +48,10 @@
   justify-content: center;
   gap: 100px;
 }
+
+.details,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
