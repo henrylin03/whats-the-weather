@@ -9,14 +9,15 @@
   box-shadow: var(--darker-shadow);
   color: white;
   display: flex;
-  align-items: flex-end;
+  align-items: end;
   justify-content: space-between;
   padding: 25px 40px;
 }
 
 #today-details .left {
   display: flex;
-  align-items: flex-end;
+  align-items: end;
+  gap: 10px;
 }
 
 #today-details .weather {
@@ -32,9 +33,13 @@
 }
 
 #today-details .weather .icon {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   background-color: white;
   mask-image: url("../../assets/icons/sun-filled.svg");
   mask-repeat: no-repeat;
+}
+
+.temp-text {
+  font-size: 9rem;
 }
