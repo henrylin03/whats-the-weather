@@ -1,7 +1,7 @@
 import "./index.css";
 
 const todayDetails = () => {
-  alert("hello");
+  return;
 };
 
 export default todayDetails;
