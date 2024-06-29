@@ -60,6 +60,14 @@
   mask-repeat: no-repeat;
 }
 
+.chance-of-rain .icon {
+  mask-image: url("../../assets/icons/umbrella.svg");
+}
+
+.wind-speed .icon {
+  mask-image: url("../../assets/icons/wind.svg");
+}
+
 .property-name {
   opacity: 0.7;
 }
