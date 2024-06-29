@@ -7,5 +7,6 @@
   background: linear-gradient(var(--gradient-top-clr), var(--lighter-clr));
   border-radius: 10px;
   box-shadow: var(--darker-shadow);
+  color: white;
   display: flex;
 }
