@@ -53,9 +53,15 @@
   gap: 100px;
 }
 
+.centre .container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .centre .container .icon {
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
   background-color: white;
   mask-repeat: no-repeat;
 }
