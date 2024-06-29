@@ -1,0 +1,9 @@
+:root {
+  --gradient-top-clr: hsl(205, 80%, 48%);
+}
+
+#today-details {
+  height: 40dvh;
+  background: linear-gradient(var(--gradient-top-clr), var(--lighter-clr));
+  display: flex;
+}
