@@ -35,7 +35,7 @@ header {
 
 .unit-btn {
   background-color: hsl(202, 53%, 80%);
-  padding: 10px 20px;
+  padding: 8px 15px;
   float: left;
   font-weight: 500;
   transition: filter 0.1s;
