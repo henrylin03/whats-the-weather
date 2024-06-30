@@ -71,6 +71,7 @@
 
 .property-name {
   opacity: 0.7;
+  text-wrap: nowrap;
 }
 
 .details,
