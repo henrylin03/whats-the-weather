@@ -9,7 +9,6 @@ header {
 #location-search {
   flex: 2;
   max-width: 50%;
-  font-family: "Open Sans", sans-serif;
   font-size: 0.85rem;
   border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
