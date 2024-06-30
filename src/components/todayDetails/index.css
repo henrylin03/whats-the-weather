@@ -49,13 +49,13 @@
 
 .centre .container {
   display: flex;
-  align-items: center;
-  gap: 5px;
+  align-items: end;
+  gap: 10px;
 }
 
 .centre .container .icon {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   background-color: white;
   mask-repeat: no-repeat;
 }
