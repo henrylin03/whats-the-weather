@@ -26,8 +26,9 @@ b {
 }
 
 body {
+  width: 900px;
   height: 100dvh;
-  width: 60dvw;
+  padding: 0 15px;
   margin: 0 auto;
   background: linear-gradient(var(--lightest-clr), white);
 }
