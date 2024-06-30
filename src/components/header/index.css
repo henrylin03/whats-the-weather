@@ -33,7 +33,8 @@ header {
 }
 
 .unit-btn {
-  background-color: hsl(202, 53%, 80%);
+  background-color: hsl(202, 95%, 80%);
+  color: var(--dark-clr);
   padding: 8px 15px;
   float: left;
   font-weight: 500;

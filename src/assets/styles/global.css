@@ -5,6 +5,7 @@
   --mid-clr: hsl(206, 46%, 37%);
   --lighter-clr: hsl(201, 51%, 69%);
   --lightest-clr: hsl(203, 90%, 93%);
+  --gradient-top-clr: hsl(205, 80%, 48%);
   --darker-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
