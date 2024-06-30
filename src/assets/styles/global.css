@@ -5,6 +5,7 @@
   --mid-clr: hsl(206, 46%, 37%);
   --lighter-clr: hsl(201, 51%, 69%);
   --lightest-clr: hsl(203, 90%, 93%);
+  --darker-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 * {
@@ -25,8 +26,9 @@ b {
 }
 
 body {
+  width: 900px;
   height: 100dvh;
-  width: 60dvw;
+  padding: 0 15px;
   margin: 0 auto;
   background: linear-gradient(var(--lightest-clr), white);
 }

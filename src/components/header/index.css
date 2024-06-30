@@ -22,7 +22,7 @@ header {
 
 .unit-btns {
   border-radius: 10px;
-  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: var(--darker-shadow);
 }
 
 .unit-btns button:first-child {
