@@ -9,6 +9,7 @@
   /* grid styling */
   display: grid;
   grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-template-rows: 1fr;
   align-items: end;
 }
 
@@ -64,19 +65,22 @@
   mask-image: url("../../assets/icons/wind.svg");
 }
 
-.property-name {
+#today-details small {
   opacity: 0.7;
-  text-wrap: nowrap;
   font-size: 0.6rem;
 }
 
-.details,
-.right {
+.property-name {
+  text-wrap: nowrap;
+}
+
+.details {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.right {
+.updated-time {
   text-align: right;
+  opacity: 0.7;
 }
