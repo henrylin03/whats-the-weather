@@ -9,4 +9,6 @@
 
 .card {
   height: 290px;
+  background-color: white;
+  border-radius: 10px;
 }
