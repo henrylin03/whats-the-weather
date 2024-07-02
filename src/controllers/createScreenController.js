@@ -4,7 +4,7 @@ const createScreenController = () => {
   const app = createAppController();
   const locationName = "Sydney";
 
-  app.getWeatherAtLocation(locationName);
+  app.getWeather(locationName);
 
   return;
 };
