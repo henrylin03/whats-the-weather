@@ -33,4 +33,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
   background: linear-gradient(var(--lightest-clr), white);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 8fr;
 }
