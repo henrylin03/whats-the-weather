@@ -1,0 +1,74 @@
+#forecast {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: stretch;
+  text-align: center;
+  gap: 25px;
+  padding: 30px 0;
+}
+
+.card {
+  height: max(300px, 15dvh);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: var(--darker-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .inner {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card .day,
+.card .weather {
+  color: var(--dark-clr);
+  opacity: 0.7;
+}
+
+.card .day {
+  font-weight: 600;
+}
+
+.card .weather {
+  font-size: 0.7rem;
+}
+
+.temperature {
+  font-size: 2rem;
+}
+
+.min-temp {
+  opacity: 0.7;
+}
+
+.rain-chance-container .property-name {
+  font-size: 0.6rem;
+  opacity: 0.7;
+}
+
+.card .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.card .icon.sunny {
+  mask-image: url("../../assets/icons/sun-filled.svg");
+  background-color: var(--light-orange-clr);
+}
+
+.card .icon.cloudy {
+  mask-image: url("../../assets/icons/cloud.svg");
+  background-color: lightgray;
+}
+
+.card .icon.rain {
+  mask-image: url("../../assets/icons/rain-svgrepo-com.svg");
+  background-color: lightgray;
+}
