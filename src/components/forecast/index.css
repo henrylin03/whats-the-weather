@@ -67,3 +67,8 @@
   mask-image: url("../../assets/icons/cloud.svg");
   background-color: lightgray;
 }
+
+.card .icon.rain {
+  mask-image: url("../../assets/icons/rain-svgrepo-com.svg");
+  background-color: lightgray;
+}
