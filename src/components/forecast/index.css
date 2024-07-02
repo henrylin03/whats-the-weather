@@ -24,8 +24,20 @@
   justify-content: space-around;
 }
 
-.day {
+.card .day,
+.card .weather {
   color: var(--dark-clr);
-  font-weight: 600;
   opacity: 0.7;
+}
+
+.card .day {
+  font-weight: 600;
+}
+
+.card .weather {
+  font-size: 0.7rem;
+}
+
+.temperature {
+  font-size: 2rem;
 }
