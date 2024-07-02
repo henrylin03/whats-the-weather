@@ -56,5 +56,9 @@
 .card .icon {
   width: 50px;
   height: 50px;
-  background-color: red;
+}
+
+.card .icon.sunny {
+  mask-image: url("../../assets/icons/sun-filled.svg");
+  background-color: var(--light-orange-clr);
 }
