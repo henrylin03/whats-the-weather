@@ -62,3 +62,8 @@
   mask-image: url("../../assets/icons/sun-filled.svg");
   background-color: var(--light-orange-clr);
 }
+
+.card .icon.cloudy {
+  mask-image: url("../../assets/icons/cloud.svg");
+  background-color: lightgray;
+}
