@@ -1,1 +1,5 @@
-import "./assets/styles/style.css";
+import "./assets/styles/normalise.css";
+import "./assets/styles/global.css";
+import header from "./components/header";
+import todayDetails from "./components/todayDetails";
+import forecast from "./components/forecast";
