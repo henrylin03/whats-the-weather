@@ -5,6 +5,7 @@
   justify-items: stretch;
   text-align: center;
   gap: 25px;
+  padding: 30px 0;
 }
 
 .card {
