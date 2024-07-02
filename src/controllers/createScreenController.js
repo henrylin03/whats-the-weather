@@ -1,5 +1,11 @@
+import createAppController from "./createAppController";
+
 const createScreenController = () => {
-  console.log("screen controller added");
+  const app = createAppController();
+  const locationName = "Sydney";
+
+  app.getWeatherAtLocation(locationName);
+
   return;
 };
 

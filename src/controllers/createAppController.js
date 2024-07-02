@@ -1,6 +1,9 @@
 const createAppController = () => {
-  console.log("app controller added");
-  return;
+  const getWeatherAtLocation = (location) => {
+    console.log(location);
+  };
+
+  return { getWeatherAtLocation };
 };
 
 export default createAppController;
