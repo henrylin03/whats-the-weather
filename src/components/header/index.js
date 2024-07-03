@@ -1,7 +1,8 @@
 import "./index.css";
+import searchBar from "./searchBar";
 
 const header = () => {
-  return;
+  searchBar();
 };
 
 export default header;
