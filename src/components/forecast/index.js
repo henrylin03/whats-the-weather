@@ -1,5 +1,6 @@
 import "./index.css";
 import createAppController from "../../controllers/App";
+import displayForecast from "./displayForecast";
 
 const forecast = async (location) => {
   const app = createAppController();
@@ -9,6 +10,7 @@ const forecast = async (location) => {
     const forecastArray = weatherData.forecast.forecastday;
 
     console.log(forecastArray);
+    displayForecast(forecastArray);
   } catch (error) {
     console.error("Error when getting forecast data:", error);
   }
