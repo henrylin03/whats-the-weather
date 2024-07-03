@@ -12,8 +12,8 @@ const windSpeedElement = document.querySelector(
 );
 const updatedTimeElement = document.querySelector(".time");
 
-const displayDetails = () => {
+const display = (currentWeatherObj) => {
   return;
 };
 
-export default displayDetails;
+export default display;
