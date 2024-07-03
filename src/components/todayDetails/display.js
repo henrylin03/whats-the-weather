@@ -13,6 +13,10 @@ const windSpeedElement = document.querySelector(
 const updatedTimeElement = document.querySelector(".last-updated-time");
 
 const display = (weatherObj) => {
+  const weatherIconImg = new Image();
+  weatherIconImg.src = weatherObj.current.condition.icon;
+  weatherIconElement.appendChild(weatherIconImg);
+
   const currentTempCelsius = weatherObj.current.temp_c.toFixed(0);
   currentTemperatureElement.textContent = `${currentTempCelsius}°`;
 
