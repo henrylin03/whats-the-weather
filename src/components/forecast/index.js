@@ -8,7 +8,6 @@ const forecast = async (location) => {
   try {
     const weatherData = await app.getWeather(location);
     const forecastArray = weatherData.forecast.forecastday;
-
     displayForecast(forecastArray);
   } catch (error) {
     console.error("Error when getting forecast data:", error);
