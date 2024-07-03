@@ -1,3 +1,5 @@
+const weatherData = await getWeather();
+
 const createAppController = () => {
   const API_KEY = "59be934c1e9141e8847232908240207";
 
@@ -10,7 +12,6 @@ const createAppController = () => {
         { mode: "cors" },
       );
       const data = await response.json();
-      console.log(data);
       return data;
     } catch (error) {
       console.error(
