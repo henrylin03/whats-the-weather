@@ -10,8 +10,8 @@ const createAppController = () => {
         { mode: "cors" },
       );
       const data = await response.json();
-
       console.log(data);
+      return data;
     } catch (error) {
       console.error(
         "There has been a problem with fetching from the WeatherAPI",
