@@ -22,6 +22,9 @@ const display = (weatherObj) => {
     weatherObj.forecast.forecastday[0].day.daily_chance_of_rain;
   chanceOfRainElement.textContent = `${rainChance}%`;
 
+  const windSpeed = weatherObj.current.wind_kph.toFixed(0);
+  windSpeedElement.textContent = `${windSpeed}km/h`;
+
   return;
 };
 
