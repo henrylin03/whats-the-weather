@@ -26,11 +26,6 @@
   gap: 5px;
 }
 
-#today-details .weather .icon {
-  width: 150px;
-  height: 150px;
-}
-
 #today-details .temperature-text {
   font-size: 7.5rem;
 }
