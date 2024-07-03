@@ -1,5 +1,15 @@
+import getWeather from "./getWeather";
+
 const createAppController = () => {
-  const API_KEY = "59be934c1e9141e8847232908240207";
+  const getForecastData = async (location) => {
+    const data = await getWeather(location);
+    const forecastArray = await data.forecast.forecastday;
+
+    console.log(forecastArray);
+    return forecastArray;
+  };
+
+  return { getForecastData };
 };
 
 export default createAppController;

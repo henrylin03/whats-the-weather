@@ -1,5 +1,3 @@
-const weatherData = await getWeather();
-
 const getWeather = async (location) => {
   const API_KEY = "59be934c1e9141e8847232908240207";
   const FORECAST_DAYS = 3; // today counts as 1 day
@@ -19,4 +17,4 @@ const getWeather = async (location) => {
   }
 };
 
-export { weatherData, getWeather };
+export default getWeather;
