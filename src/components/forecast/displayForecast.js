@@ -15,6 +15,9 @@ const displayForecast = (forecastArr) => {
     weatherTextElement.textContent = day.day.condition.text;
 
     const weatherFigureElement = currentCard.querySelector(".icon");
+    const imgElement = new Image();
+    imgElement.src = day.day.condition.icon;
+    weatherFigureElement.appendChild(imgElement);
 
     const maxTempElement = currentCard.querySelector(".max-temp");
     const maxTemp = day.day.maxtemp_c.toFixed(0);
