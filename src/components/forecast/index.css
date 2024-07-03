@@ -51,23 +51,3 @@
   font-size: 0.6rem;
   opacity: 0.7;
 }
-
-.card .icon {
-  width: 50px;
-  height: 50px;
-}
-
-.card .icon.sunny {
-  mask-image: url("../../assets/icons/sun-filled.svg");
-  background-color: var(--light-orange-clr);
-}
-
-.card .icon.cloudy {
-  mask-image: url("../../assets/icons/cloud.svg");
-  background-color: lightgray;
-}
-
-.card .icon.rain {
-  mask-image: url("../../assets/icons/rain-svgrepo-com.svg");
-  background-color: lightgray;
-}
