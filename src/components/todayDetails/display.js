@@ -29,11 +29,11 @@ const display = (weatherObj) => {
   updatedTimeElement.textContent = getLastUpdatedTime(lastUpdatedDateTime);
 };
 
-const getLastUpdatedTime = (lastUpdatedStr) => {
-  const dateObj = new Date(lastUpdatedStr);
-  return dateObj.toLocaleTimeString();
-  // extract just the time, and convert to 12hr format (AM PM suffix)
-  // extract the timezone name and attach it on
-};
+const getLastUpdatedTime = (lastUpdatedStr) =>
+  new Date(lastUpdatedStr).toLocaleTimeString(navigator.language, {
+    hour: "numeric",
+    minute: "2-digit",
+    timeZoneName: "short",
+  });
 
 export default display;
