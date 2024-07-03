@@ -8,8 +8,7 @@ const createScreenController = () => {
   const locationName = "Sydney";
 
   // run
-  // console.log(app.getWeather(locationName));
-  const forecastArr = app.getForecastData(locationName);
+  forecast(locationName);
 };
 
 export default createScreenController;
