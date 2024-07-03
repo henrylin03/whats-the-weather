@@ -12,7 +12,16 @@ const windSpeedElement = document.querySelector(
 );
 const updatedTimeElement = document.querySelector(".time");
 
-const display = (currentWeatherObj) => {
+const display = (weatherObj) => {
+  console.log(weatherObj);
+
+  const currentTempCelsius = weatherObj.current.temp_c.toFixed(0);
+  currentTemperatureElement.textContent = `${currentTempCelsius}°`;
+
+  const rainChance =
+    weatherObj.forecast.forecastday[0].day.daily_chance_of_rain;
+  chanceOfRainElement.textContent = `${rainChance}%`;
+
   return;
 };
 

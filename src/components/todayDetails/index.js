@@ -7,8 +7,7 @@ const todayDetails = async (location) => {
 
   try {
     const weatherData = await app.getWeather(location);
-    const currentWeatherData = weatherData.current;
-    display(currentWeatherData);
+    display(weatherData);
   } catch (error) {
     console.error("Error when getting forecast data:", error);
   }
