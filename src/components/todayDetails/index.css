@@ -29,9 +29,6 @@
 #today-details .weather .icon {
   width: 150px;
   height: 150px;
-  background-color: white;
-  mask-image: url("../../assets/icons/sun-filled.svg");
-  mask-repeat: no-repeat;
 }
 
 #today-details .temperature-text {
