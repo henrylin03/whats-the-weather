@@ -14,7 +14,7 @@ const displayForecast = (forecastArr) => {
     const weatherTextElement = currentCard.querySelector(".weather");
     weatherTextElement.textContent = day.day.condition.text;
 
-    // todo: icon for weather condition (start with using the api's i think)
+    const weatherFigureElement = currentCard.querySelector(".icon");
 
     const maxTempElement = currentCard.querySelector(".max-temp");
     const maxTemp = day.day.maxtemp_c.toFixed(0);

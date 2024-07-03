@@ -57,7 +57,7 @@
   height: 50px;
 }
 
-.card .icon.sunny {
+/* .card .icon.sunny {
   mask-image: url("../../assets/icons/sun-filled.svg");
   background-color: var(--light-orange-clr);
 }
@@ -70,4 +70,4 @@
 .card .icon.rain {
   mask-image: url("../../assets/icons/rain-svgrepo-com.svg");
   background-color: lightgray;
-}
+} */
