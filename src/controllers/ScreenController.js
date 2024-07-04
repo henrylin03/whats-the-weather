@@ -20,6 +20,13 @@ const createScreenController = () => {
     searchCity(searchBarElement.value);
   });
 
+  searchBarElement.addEventListener("keyup", ({ key }) => {
+    if (key === "Enter") {
+      locationName = searchBarElement.value;
+      display();
+    }
+  });
+
   // run
   display();
 };
