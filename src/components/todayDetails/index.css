@@ -8,7 +8,7 @@
 
   /* grid styling */
   display: grid;
-  grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1fr;
   align-items: end;
 }
@@ -33,7 +33,7 @@
 .centre {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .centre .container {
