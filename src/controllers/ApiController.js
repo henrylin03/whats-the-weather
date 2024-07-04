@@ -22,7 +22,7 @@ const getWeather = async (location) => {
 const searchCity = async (searchStr) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/v1/search.json?key=${API_KEY}&q=${searchStr}`,
+      `${BASE_URL}/search.json?key=${API_KEY}&q=${searchStr}`,
       { mode: "cors" },
     );
     const data = await response.json();
