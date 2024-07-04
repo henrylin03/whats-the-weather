@@ -1,12 +1,10 @@
 import "./index.css";
-import createAppController from "../../controllers/App";
+import getWeather from "../../controllers/Api/getWeather";
 import display from "./display";
 
 const todayDetails = async (location) => {
-  const app = createAppController();
-
   try {
-    const weatherData = await app.getWeather(location);
+    const weatherData = await getWeather(location);
     display(weatherData);
   } catch (error) {
     console.error("Error when getting forecast data:", error);

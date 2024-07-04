@@ -1,12 +1,10 @@
 import "./index.css";
-import createAppController from "../../controllers/App";
+import getWeather from "../../controllers/Api/getWeather";
 import displayForecast from "./displayForecast";
 
 const forecast = async (location) => {
-  const app = createAppController();
-
   try {
-    const weatherData = await app.getWeather(location);
+    const weatherData = await getWeather(location);
     const forecastArray = weatherData.forecast.forecastday;
     displayForecast(forecastArray);
   } catch (error) {
