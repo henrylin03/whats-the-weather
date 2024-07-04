@@ -6,7 +6,6 @@ const createScreenController = () => {
   const locationName = "Sydney";
 
   // run
-  header();
   todayDetails(locationName);
   forecast(locationName);
 };
