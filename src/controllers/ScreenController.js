@@ -9,9 +9,11 @@ const createScreenController = () => {
 
   // api seems to only kick in after at least 3 characters are put in... don't call api until then
 
-  searchBarElement.addEventListener("input", () => {
+  searchBarElement.addEventListener("input", (e) => {
     const searchInput = searchBarElement.value;
-    if (searchInput.trim().length < 3) return;
+
+    if (searchInput.trim().length < 3 || e.inputType == "deleteContentBackward")
+      return;
     searchCity(searchBarElement.value);
   });
 
