@@ -1,7 +1,8 @@
 import getWeather from "./getWeather";
+import searchCity from "./searchCity";
 
 const createAppController = () => {
-  return { getWeather };
+  return { getWeather, searchCity };
 };
 
 export default createAppController;
