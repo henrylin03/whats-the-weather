@@ -5,9 +5,7 @@ import { searchCity } from "./ApiController";
 
 const createScreenController = () => {
   const searchBarElement = document.querySelector("#searchbar");
-  const locationName = "sdy";
-
-  // api seems to only kick in after at least 3 characters are put in... don't call api until then
+  const locationName = "Sydney, Australia";
 
   searchBarElement.addEventListener("input", (e) => {
     const searchInput = searchBarElement.value;
