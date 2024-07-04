@@ -1,5 +1,5 @@
 import "./index.css";
-import getWeather from "../../controllers/Api/getWeather";
+import { getWeather } from "../../controllers/ApiController";
 import display from "./display";
 
 const todayDetails = async (location) => {

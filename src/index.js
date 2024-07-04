@@ -1,5 +1,5 @@
 import "./assets/styles/normalise.css";
 import "./assets/styles/global.css";
-import createScreenController from "./controllers/Screen";
+import createScreenController from "./controllers/ScreenController";
 
 createScreenController();
