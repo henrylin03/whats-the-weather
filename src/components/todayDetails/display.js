@@ -28,14 +28,13 @@ const display = (weatherObj) => {
   windSpeedElement.textContent = `${windSpeed}km/h`;
 
   const lastUpdatedDateTime = weatherObj.current.last_updated;
-  updatedTimeElement.textContent = getLastUpdatedTime(lastUpdatedDateTime);
+  updatedTimeElement.textContent = `${getLastUpdatedTime(lastUpdatedDateTime)} local time`;
 };
 
 const getLastUpdatedTime = (lastUpdatedStr) =>
   new Date(lastUpdatedStr).toLocaleTimeString(navigator.language, {
     hour: "numeric",
     minute: "2-digit",
-    timeZoneName: "short",
   });
 
 export default display;
