@@ -1,5 +1,5 @@
 const weatherIconElement = document.querySelector(
-  "#today-details .weather .icon",
+  "#today-details .weather .icon img",
 );
 const currentTemperatureElement = document.querySelector(
   "#today-details .temperature-text",
@@ -13,9 +13,7 @@ const windSpeedElement = document.querySelector(
 const updatedTimeElement = document.querySelector(".last-updated-time");
 
 const display = (weatherObj) => {
-  const weatherIconImg = new Image();
-  weatherIconImg.src = weatherObj.current.condition.icon;
-  weatherIconElement.appendChild(weatherIconImg);
+  weatherIconElement.src = weatherObj.current.condition.icon;
 
   const currentTempCelsius = weatherObj.current.temp_c.toFixed(0);
   currentTemperatureElement.textContent = `${currentTempCelsius}°`;
