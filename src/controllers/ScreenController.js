@@ -1,34 +1,34 @@
 import header from "../components/header";
 import todayDetails from "../components/todayDetails";
 import forecast from "../components/forecast";
-import { searchCity } from "./ApiController";
 
 const createScreenController = () => {
   const searchBarElement = document.querySelector("#searchbar");
-  let locationName = "Sydney, Australia";
 
-  const display = (location = locationName) => {
-    header(location);
-    todayDetails(location);
-    forecast(location);
+  const display = (locationId) => {
+    header();
+    todayDetails(locationId);
+    forecast(locationId);
   };
 
-  searchBarElement.addEventListener("input", (e) => {
-    const searchInput = searchBarElement.value;
-    if (searchInput.trim().length < 3 || e.inputType == "deleteContentBackward")
-      return;
-    searchCity(searchBarElement.value);
-  });
+  const displayWeatherOfLocation = (e) => {
+    const locationId = e.target.dataset.locationid;
+    if (locationId === undefined) return;
+    display(locationId);
+  };
 
-  searchBarElement.addEventListener("keyup", ({ key }) => {
-    if (key === "Enter") {
-      locationName = searchBarElement.value;
-      display();
-    }
-  });
+  searchBarElement.addEventListener("change", displayWeatherOfLocation);
+
+  // searchBarElement.addEventListener("keyup", ({ key }) => {
+  //   if (key === "Enter") {
+  //     locationName = searchBarElement.value;
+  //     display();
+  //   }
+  // });
 
   // run
-  display();
+  const initialLocationId = "136022"; // sydney
+  display(initialLocationId);
 };
 
 export default createScreenController;

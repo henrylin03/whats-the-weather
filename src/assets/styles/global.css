@@ -43,3 +43,7 @@ main {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 1fr;
 }
+
+ul {
+  list-style-type: none;
+}
