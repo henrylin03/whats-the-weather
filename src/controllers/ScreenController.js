@@ -3,8 +3,9 @@ import todayDetails from "../components/todayDetails";
 import forecast from "../components/forecast";
 import { searchCity } from "./ApiController";
 
+const searchBarElement = document.querySelector("#searchbar");
+
 const createScreenController = () => {
-  const searchBarElement = document.querySelector("#searchbar");
   let locationName = "Sydney, Australia";
 
   const display = (location = locationName) => {
@@ -29,6 +30,10 @@ const createScreenController = () => {
 
   // run
   display();
+};
+
+const showResults = () => {
+  return;
 };
 
 export default createScreenController;

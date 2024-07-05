@@ -26,7 +26,7 @@ const searchCity = async (searchStr) => {
       { mode: "cors" },
     );
     const data = await response.json();
-    console.log(data);
+    console.log(data); //todo: remove
     return data;
   } catch (error) {
     console.error("There is a problem with your search: ", error);
