@@ -9,11 +9,11 @@ search {
   flex: 2;
   max-width: 50%;
   position: relative;
+  font-size: 0.85rem;
 }
 
 #searchbar {
   width: 100%;
-  font-size: 0.85rem;
   border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
   padding: 8px 13px;
