@@ -25,6 +25,17 @@ search {
 
 .results-container {
   position: absolute;
+  display: none;
+}
+
+.results-container.visible {
+  display: block;
+}
+
+.visible ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .unit-btns {
