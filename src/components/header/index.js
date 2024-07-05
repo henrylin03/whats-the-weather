@@ -32,8 +32,15 @@ const handleSearchInput = async () => {
   searchBarElement.addEventListener(
     "keydown",
     ({ key }) => {
+      if (!searchResultsContainerElement.classList.contains("results")) return;
       if (key === "Enter") {
+        const firstResult = resultsArray[0];
+        informSearchBarOfSelectedLocation({
+          id: firstResult.id,
+          name: `${firstResult.name}, ${firstResult.region}, ${firstResult.country}`,
+        });
       }
+      hideSearchResultsContainer();
     },
     { once: true },
   );
