@@ -31,6 +31,7 @@ search {
   width: 100%;
   border-radius: 10px;
   padding: var(--container-padding);
+  margin-top: 1px;
 }
 
 .results-container.visible {
