@@ -13,6 +13,8 @@ const windSpeedElement = document.querySelector(
 const updatedTimeElement = document.querySelector(".last-updated-time");
 
 const display = (weatherObj) => {
+  console.log(weatherObj);
+
   const weatherIconImg = new Image();
   weatherIconImg.src = weatherObj.current.condition.icon;
   weatherIconElement.appendChild(weatherIconImg);
@@ -27,12 +29,12 @@ const display = (weatherObj) => {
   const windSpeed = weatherObj.current.wind_kph.toFixed(0);
   windSpeedElement.textContent = `${windSpeed}km/h`;
 
-  const lastUpdatedDateTime = weatherObj.current.last_updated;
-  updatedTimeElement.textContent = getLastUpdatedTime(lastUpdatedDateTime);
+  const lastUpdatedUnixTime = weatherObj.current.last_updated_epoch;
+  updatedTimeElement.textContent = getLastUpdatedTime(lastUpdatedUnixTime);
 };
 
-const getLastUpdatedTime = (lastUpdatedStr) =>
-  new Date(lastUpdatedStr).toLocaleTimeString(navigator.language, {
+const getLastUpdatedTime = (unixTime) =>
+  new Date(unixTime * 1000).toLocaleTimeString(navigator.language, {
     hour: "numeric",
     minute: "2-digit",
     timeZoneName: "short",
