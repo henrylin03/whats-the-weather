@@ -1,7 +1,9 @@
 import "./index.css";
 
-const header = () => {
-  return;
+const header = (location) => {
+  const searchBarElement = document.querySelector("#searchbar");
+  searchBarElement.value = location;
+  searchBarElement.addEventListener("focus", () => searchBarElement.select());
 };
 
 export default header;
