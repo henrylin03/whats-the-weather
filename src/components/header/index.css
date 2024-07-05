@@ -34,7 +34,8 @@ search {
   margin-top: 1px;
 }
 
-.results-container.visible {
+.results-container.results,
+.results-container.no-results {
   display: block;
 }
 
