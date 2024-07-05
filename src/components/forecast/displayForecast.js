@@ -1,9 +1,13 @@
 const forecastSection = document.querySelector("#forecast");
 const cards = [...forecastSection.children];
 
-const displayForecast = (forecastArr) => {
+const displayForecast = (forecastArr, unit) => {
   forecastArr.forEach((day, idx) => {
     const currentCard = cards[idx];
+    const maxTempValue =
+      unit === "celsius" ? day.day.maxtemp_c : day.day.maxtemp_f;
+    const minTempValue =
+      unit === "celsius" ? day.day.mintemp_c : day.day.mintemp_f;
 
     // any days after 'today' and 'tomorrow
     if (idx > 1) {
@@ -18,11 +22,9 @@ const displayForecast = (forecastArr) => {
     weatherImgElement.src = day.day.condition.icon;
 
     const maxTempElement = currentCard.querySelector(".max-temp");
-    const maxTemp = day.day.maxtemp_c.toFixed(0);
-    maxTempElement.textContent = `${maxTemp}°`;
+    maxTempElement.textContent = `${maxTempValue.toFixed(0)}°`;
     const minTempElement = currentCard.querySelector(".min-temp");
-    const minTemp = day.day.mintemp_c.toFixed(0);
-    minTempElement.textContent = `/${minTemp}°`;
+    minTempElement.textContent = `/${minTempValue.toFixed(0)}°`;
 
     const chanceOfRainElement = currentCard.querySelector(
       ".rain-chance-container>p",
