@@ -51,7 +51,11 @@ const displaySearchResults = (resultsArray) => {
 };
 
 const selectLocation = (e) => {
-  console.log(e.target.dataset.id);
+  const selectedLocationId = e.target.dataset.id;
+  const selectedLocationName = e.target.textContent;
+
+  searchBarElement.setAttribute("data-locationid", selectedLocationId);
+  searchBarElement.value = selectedLocationName;
 };
 
 const hideSearchResultsContainer = () => {
