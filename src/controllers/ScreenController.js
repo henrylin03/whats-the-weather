@@ -13,12 +13,12 @@ const createScreenController = () => {
     forecast(location);
   };
 
-  searchBarElement.addEventListener("keyup", ({ key }) => {
-    if (key === "Enter") {
-      locationName = searchBarElement.value;
-      display();
-    }
-  });
+  // searchBarElement.addEventListener("keyup", ({ key }) => {
+  //   if (key === "Enter") {
+  //     locationName = searchBarElement.value;
+  //     display();
+  //   }
+  // });
 
   // run
   display();
