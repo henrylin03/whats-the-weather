@@ -41,14 +41,14 @@ const displaySearchResults = (resultsArray) => {
     btn.type = "button";
     btn.textContent = `${location.name}, ${location.region}, ${location.country}`;
     btn.setAttribute("data-id", location.id);
-    btn.addEventListener("mousedown", handleSelectLocation);
+    btn.addEventListener("mousedown", handleClickOnLocationOption);
 
     item.appendChild(btn);
     resultsListElement.appendChild(item);
   });
 };
 
-const handleSelectLocation = (e) => {
+const handleClickOnLocationOption = (e) => {
   const selectedLocationId = e.target.dataset.id;
   const selectedLocationName = e.target.textContent;
 
