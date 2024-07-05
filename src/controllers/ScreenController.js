@@ -31,9 +31,7 @@ const handleSearchInput = async (e) => {
   if (searchInput.trim().length < 3) return;
 
   const resultsArray = await searchCity(searchBarElement.value);
-  console.log(resultsArray);
-
-  // use async/await to await for the array that gets returned by searchCity...
+  const noResults = !resultsArray || !resultsArray.length;
 
   // if async/await returns an empty array, then display the no-results div
 
