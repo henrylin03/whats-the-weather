@@ -29,20 +29,21 @@ const createScreenController = () => {
 const handleSearchInput = async (e) => {
   const searchResultsContainerElement =
     document.querySelector(".results-container");
+
+  // reset
+  searchResultsContainerElement.classList.remove("no-results");
+  searchResultsContainerElement.classList.remove("results");
+
   const searchInput = searchBarElement.value;
   if (searchInput.trim().length < 3) return;
 
   const resultsArray = await searchCity(searchBarElement.value);
-  console.log(resultsArray); // todo: remove
   const noResults = !resultsArray || !resultsArray.length;
 
   if (noResults)
     return searchResultsContainerElement.classList.add("no-results");
-  searchResultsContainerElement.classList.remove("no-results");
   searchResultsContainerElement.classList.add("results");
   displaySearchResults(resultsArray);
-
-  //todo: clearing the text input OR calling again means the error message goes away
 
   // ? how do we then return the actual current location back to the text box? maybe on no focus?
 };
