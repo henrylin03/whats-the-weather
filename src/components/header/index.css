@@ -44,8 +44,9 @@ search {
   gap: 5px;
 }
 
-.results-container li {
+.results-container button {
   padding: 5px 0;
+  background-color: transparent;
 }
 
 .unit-btns {
