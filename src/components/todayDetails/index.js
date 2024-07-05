@@ -2,10 +2,10 @@ import "./index.css";
 import { getWeather } from "../../controllers/ApiController";
 import display from "./display";
 
-const todayDetails = async (location) => {
+const todayDetails = async (locationId, unit) => {
   try {
-    const weatherData = await getWeather(location);
-    display(weatherData);
+    const weatherData = await getWeather(locationId);
+    display(weatherData, unit);
   } catch (error) {
     console.error("Error when getting forecast data:", error);
   }

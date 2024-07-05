@@ -12,18 +12,23 @@ const windSpeedElement = document.querySelector(
 );
 const updatedTimeElement = document.querySelector(".last-updated-time");
 
-const display = (weatherObj) => {
+const display = (weatherObj, unit) => {
+  console.log(weatherObj);
   weatherIconElement.src = weatherObj.current.condition.icon;
 
-  const currentTempCelsius = weatherObj.current.temp_c.toFixed(0);
-  currentTemperatureElement.textContent = `${currentTempCelsius}°`;
+  const currentTemp =
+    unit === "celsius" ? weatherObj.current.temp_c : weatherObj.current.temp_f;
+  currentTemperatureElement.textContent = `${currentTemp.toFixed(0)}°`;
 
   const rainChance =
     weatherObj.forecast.forecastday[0].day.daily_chance_of_rain;
   chanceOfRainElement.textContent = `${rainChance}%`;
 
-  const windSpeed = weatherObj.current.wind_kph.toFixed(0);
-  windSpeedElement.textContent = `${windSpeed}km/h`;
+  const windSpeed =
+    unit === "celsius"
+      ? `${weatherObj.current.wind_kph.toFixed(0)}km/h`
+      : `${weatherObj.current.wind_mph.toFixed(0)}mph`;
+  windSpeedElement.textContent = windSpeed;
 
   const lastUpdatedUnixTime = weatherObj.current.last_updated_epoch;
   updatedTimeElement.textContent = getLastUpdatedTime(lastUpdatedUnixTime);
