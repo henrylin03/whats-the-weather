@@ -5,6 +5,12 @@ import forecast from "../components/forecast";
 const createScreenController = () => {
   const searchBarElement = document.querySelector("#searchbar");
 
+  // figure out which unit is being selected right now
+
+  // pass that unit into display() as an arg
+
+  // update each of the subsequent components accordingly
+
   const display = (locationId) => {
     header();
     todayDetails(locationId);

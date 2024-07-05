@@ -13,4 +13,8 @@ const unitToggles = () => {
   );
 };
 
-export default unitToggles;
+const getUnit = () => {
+  return; // returns unit - either fahrenheit or celsius
+};
+
+export { unitToggles };
