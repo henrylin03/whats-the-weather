@@ -5,13 +5,19 @@ import forecast from "../components/forecast";
 const createScreenController = () => {
   const searchBarElement = document.querySelector("#searchbar");
 
-  let locationName = "Sydney, New South Wales, Australia";
-
-  const display = (location = locationName) => {
-    header(location);
-    todayDetails(location);
-    forecast(location);
+  const display = (locationId) => {
+    header();
+    todayDetails(locationId);
+    forecast(locationId);
   };
+
+  const displayWeatherOfLocation = (e) => {
+    const locationId = e.target.dataset.locationid;
+    if (locationId === undefined) return;
+    display(locationId);
+  };
+
+  searchBarElement.addEventListener("change", displayWeatherOfLocation);
 
   // searchBarElement.addEventListener("keyup", ({ key }) => {
   //   if (key === "Enter") {
@@ -21,7 +27,8 @@ const createScreenController = () => {
   // });
 
   // run
-  display();
+  const initialLocationId = "136022"; // sydney
+  display(initialLocationId);
 };
 
 export default createScreenController;

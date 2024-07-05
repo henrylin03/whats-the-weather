@@ -5,9 +5,7 @@ const searchBarElement = document.querySelector("#searchbar");
 const searchResultsContainerElement =
   document.querySelector(".results-container");
 
-const header = (location) => {
-  searchBarElement.value = location;
-
+const header = () => {
   searchBarElement.addEventListener("input", handleSearchInput);
   searchBarElement.addEventListener("focus", (e) => {
     e.target.select(); // select all text, ready for deletion
