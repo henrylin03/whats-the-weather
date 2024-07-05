@@ -40,8 +40,6 @@ const handleSearchInput = async (e) => {
   // if async/await returns non-empty array, display those results in the div
 
   // nb: it's possible that we need to clear the ul every time
-
-  searchCity(searchBarElement.value);
   return;
 };
 
