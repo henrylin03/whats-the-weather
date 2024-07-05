@@ -43,6 +43,10 @@ search {
   gap: 5px;
 }
 
+.results-container li {
+  padding: 5px 0;
+}
+
 .unit-btns {
   border-radius: 10px;
   box-shadow: var(--darker-shadow);
