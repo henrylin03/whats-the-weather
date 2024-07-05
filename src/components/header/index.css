@@ -37,10 +37,23 @@ search {
   display: block;
 }
 
-.visible ul {
+.results-container.no-results {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.results ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.no-results ul {
+  display: none;
 }
 
 .results-container button {
