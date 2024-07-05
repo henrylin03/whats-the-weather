@@ -51,9 +51,11 @@ search {
 }
 
 .no-results .icon {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   background-color: var(--lightest-clr);
+  mask-image: url("./map-pin.svg");
+  mask-repeat: no-repeat;
 }
 
 .results ul {
