@@ -26,10 +26,13 @@ const createScreenController = () => {
   display();
 };
 
-const handleSearchInput = (e) => {
+const handleSearchInput = async (e) => {
   const searchInput = searchBarElement.value;
   if (searchInput.trim().length < 3 || e.inputType == "deleteContentBackward")
     return;
+
+  const resultsArray = await searchCity(searchBarElement.value);
+  console.log(resultsArray);
 
   // use async/await to await for the array that gets returned by searchCity...
 
