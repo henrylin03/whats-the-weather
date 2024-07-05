@@ -4,6 +4,8 @@ import forecast from "../components/forecast";
 import { searchCity } from "./ApiController";
 
 const searchBarElement = document.querySelector("#searchbar");
+const searchResultsContainerElement =
+  document.querySelector(".results-container");
 
 const createScreenController = () => {
   let locationName = "Sydney, New South Wales, Australia";
@@ -15,6 +17,8 @@ const createScreenController = () => {
   };
 
   searchBarElement.addEventListener("input", handleSearchInput);
+  searchBarElement.addEventListener("focus", handleSearchInput);
+  searchBarElement.addEventListener("blur", hideSearchResultsContainer);
   searchBarElement.addEventListener("keyup", ({ key }) => {
     if (key === "Enter") {
       locationName = searchBarElement.value;
@@ -22,20 +26,18 @@ const createScreenController = () => {
     }
   });
 
-  // todo: on blur of the searchbar element, the dropdown gets made not visible. and the current location's name is in the searchbar text
-
   // run
   display();
 };
 
-const handleSearchInput = async (e) => {
-  const searchResultsContainerElement =
-    document.querySelector(".results-container");
-
-  // reset
+const hideSearchResultsContainer = () => {
   searchResultsContainerElement.classList.remove("no-results");
   searchResultsContainerElement.classList.remove("results");
+};
 
+const handleSearchInput = async (e) => {
+  // reset
+  hideSearchResultsContainer();
   const searchInput = searchBarElement.value;
   if (searchInput.trim().length < 3) return;
 
