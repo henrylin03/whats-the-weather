@@ -42,11 +42,16 @@ const displaySearchResults = (resultsArray) => {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.textContent = `${location.name}, ${location.region}, ${location.country}`;
-    btn.setAttribute("data-location-id", location.id);
+    btn.setAttribute("data-id", location.id);
+    btn.addEventListener("mousedown", selectLocation);
 
     item.appendChild(btn);
     resultsListElement.appendChild(item);
   });
+};
+
+const selectLocation = (e) => {
+  console.log(e.target.dataset.id);
 };
 
 const hideSearchResultsContainer = () => {
