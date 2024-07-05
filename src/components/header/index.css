@@ -40,10 +40,10 @@ search {
 .results-container.no-results {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 25px;
 }
 
 .no-results .error-message {
@@ -53,7 +53,7 @@ search {
 .no-results .icon {
   height: 80px;
   width: 80px;
-  background-color: var(--lightest-clr);
+  background-color: var(--lighter-clr);
   mask-image: url("./map-pin.svg");
   mask-repeat: no-repeat;
 }
