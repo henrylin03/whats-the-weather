@@ -54,7 +54,16 @@ const displaySearchResults = (resultsArray) => {
   // clears all previous items
   resultsListElement.replaceChildren();
 
-  // for each of the elements, generate a list item [see html now for what to generate]
+  resultsArray.forEach((location) => {
+    const item = document.createElement("li");
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = `${location.name}, ${location.region}, ${location.country}`;
+    btn.setAttribute("data-location-id", location.id);
+
+    item.appendChild(btn);
+    resultsListElement.appendChild(item);
+  });
 
   // don't worry about shortening names for now. but i think each of the buttons should have the 'id' of the location as a data-attribute so that it can be picked up when clicked...
 };
