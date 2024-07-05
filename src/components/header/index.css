@@ -3,6 +3,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 15px;
+  --container-padding: 8px 13px;
 }
 
 search {
@@ -16,7 +17,7 @@ search {
   width: 100%;
   border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
-  padding: 8px 13px;
+  padding: var(--container-padding);
 }
 
 #searchbar:focus {
@@ -26,6 +27,10 @@ search {
 .results-container {
   position: absolute;
   display: none;
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding: var(--container-padding);
 }
 
 .results-container.visible {
