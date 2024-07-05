@@ -43,19 +43,21 @@ const displaySearchResults = (resultsArray) => {
     btn.type = "button";
     btn.textContent = `${location.name}, ${location.region}, ${location.country}`;
     btn.setAttribute("data-id", location.id);
-    btn.addEventListener("mousedown", selectLocation);
+    btn.addEventListener("mousedown", handleSelectLocation);
 
     item.appendChild(btn);
     resultsListElement.appendChild(item);
   });
 };
 
-const selectLocation = (e) => {
+const handleSelectLocation = (e) => {
   const selectedLocationId = e.target.dataset.id;
   const selectedLocationName = e.target.textContent;
 
   searchBarElement.setAttribute("data-locationid", selectedLocationId);
   searchBarElement.value = selectedLocationName;
+
+  hideSearchResultsContainer();
 };
 
 const hideSearchResultsContainer = () => {
