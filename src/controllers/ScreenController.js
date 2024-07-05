@@ -19,6 +19,8 @@ const createScreenController = () => {
   searchBarElement.addEventListener("input", handleSearchInput);
   searchBarElement.addEventListener("focus", handleSearchInput);
   searchBarElement.addEventListener("blur", hideSearchResultsContainer);
+
+  //
   searchBarElement.addEventListener("keyup", ({ key }) => {
     if (key === "Enter") {
       locationName = searchBarElement.value;
@@ -36,8 +38,8 @@ const hideSearchResultsContainer = () => {
 };
 
 const handleSearchInput = async (e) => {
-  // reset
   hideSearchResultsContainer();
+
   const searchInput = searchBarElement.value;
   if (searchInput.trim().length < 3) return;
 
