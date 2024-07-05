@@ -19,13 +19,6 @@ const createScreenController = () => {
 
   searchBarElement.addEventListener("change", displayWeatherOfLocation);
 
-  // searchBarElement.addEventListener("keyup", ({ key }) => {
-  //   if (key === "Enter") {
-  //     locationName = searchBarElement.value;
-  //     display();
-  //   }
-  // });
-
   // run
   const initialLocationId = "136022"; // sydney
   display(initialLocationId);
