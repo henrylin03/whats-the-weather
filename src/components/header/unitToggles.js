@@ -1,7 +1,7 @@
-const unitToggles = () => {
-  const btnsContainer = document.querySelector(".unit-btns");
-  const unitBtns = [...btnsContainer.children];
+const btnsContainer = document.querySelector(".unit-btns");
+const unitBtns = [...btnsContainer.children];
 
+const unitToggles = () => {
   const handleClickOnUnitBtn = (e) => {
     if (e.target.classList.contains("selected")) return;
     unitBtns.forEach((btn) => btn.classList.remove("selected"));
@@ -13,8 +13,7 @@ const unitToggles = () => {
   );
 };
 
-const getUnit = () => {
-  return; // returns unit - either fahrenheit or celsius
-};
+const getUnit = () =>
+  unitBtns.find((btnElement) => btnElement.classList.contains("selected")).id;
 
-export { unitToggles };
+export { unitToggles, getUnit };
