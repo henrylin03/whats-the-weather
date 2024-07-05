@@ -27,6 +27,16 @@ const handleSearchInput = async () => {
     return searchResultsContainerElement.classList.add("no-results");
   searchResultsContainerElement.classList.add("results");
   displaySearchResults(resultsArray);
+
+  // add event listener for enter key pressed
+  searchBarElement.addEventListener(
+    "keydown",
+    ({ key }) => {
+      if (key === "Enter") {
+      }
+    },
+    { once: true },
+  );
 };
 
 const displaySearchResults = (resultsArray) => {
@@ -49,13 +59,18 @@ const displaySearchResults = (resultsArray) => {
 };
 
 const handleClickOnLocationOption = (e) => {
-  const selectedLocationId = e.target.dataset.id;
-  const selectedLocationName = e.target.textContent;
+  const selectedLocation = {
+    id: e.target.dataset.id,
+    name: e.target.textContent,
+  };
 
-  searchBarElement.setAttribute("data-locationid", selectedLocationId);
-  searchBarElement.value = selectedLocationName;
-
+  informSearchBarOfSelectedLocation(selectedLocation);
   hideSearchResultsContainer();
+};
+
+const informSearchBarOfSelectedLocation = (locationObject) => {
+  searchBarElement.setAttribute("data-locationid", locationObject.id);
+  searchBarElement.value = locationObject.name;
 };
 
 const hideSearchResultsContainer = () => {
