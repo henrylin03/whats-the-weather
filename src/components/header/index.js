@@ -11,11 +11,11 @@ const header = (location) => {
   searchBarElement.addEventListener("input", handleSearchInput);
   searchBarElement.addEventListener("focus", handleSearchInput);
   searchBarElement.addEventListener("blur", hideSearchResultsContainer);
+  searchBarElement.addEventListener("focus", () => searchBarElement.select());
 };
 
-const handleSearchInput = async () => {
+const handleSearchInput = async (e) => {
   hideSearchResultsContainer();
-  searchBarElement.select();
 
   const searchInput = searchBarElement.value;
   if (searchInput.trim().length < 3) return;
