@@ -6,7 +6,7 @@ import { searchCity } from "./ApiController";
 const searchBarElement = document.querySelector("#searchbar");
 
 const createScreenController = () => {
-  let locationName = "Sydney, Australia";
+  let locationName = "Sydney, New South Wales, Australia";
 
   const display = (location = locationName) => {
     header(location);
@@ -21,6 +21,8 @@ const createScreenController = () => {
       display();
     }
   });
+
+  // todo: on blur of the searchbar element, the dropdown gets made not visible. and the current location's name is in the searchbar text
 
   // run
   display();
@@ -44,8 +46,6 @@ const handleSearchInput = async (e) => {
     return searchResultsContainerElement.classList.add("no-results");
   searchResultsContainerElement.classList.add("results");
   displaySearchResults(resultsArray);
-
-  // ? how do we then return the actual current location back to the text box? maybe on no focus?
 };
 
 const displaySearchResults = (resultsArray) => {
@@ -64,8 +64,6 @@ const displaySearchResults = (resultsArray) => {
     item.appendChild(btn);
     resultsListElement.appendChild(item);
   });
-
-  // don't worry about shortening names for now
 };
 
 export default createScreenController;
