@@ -9,12 +9,14 @@ const header = (location) => {
   searchBarElement.value = location;
 
   searchBarElement.addEventListener("input", handleSearchInput);
-  searchBarElement.addEventListener("focus", handleSearchInput);
+  searchBarElement.addEventListener("focus", (e) => {
+    e.target.select(); // select all text, ready for deletion
+    handleSearchInput;
+  });
   searchBarElement.addEventListener("blur", hideSearchResultsContainer);
-  searchBarElement.addEventListener("focus", () => searchBarElement.select());
 };
 
-const handleSearchInput = async (e) => {
+const handleSearchInput = async () => {
   hideSearchResultsContainer();
 
   const searchInput = searchBarElement.value;
