@@ -28,7 +28,7 @@ const display = (weatherObj, unit) => {
     unit === "celsius"
       ? `${weatherObj.current.wind_kph.toFixed(0)}km/h`
       : `${weatherObj.current.wind_mph.toFixed(0)}mph`;
-  windSpeedElement.textContent = `${windSpeed}km/h`;
+  windSpeedElement.textContent = windSpeed;
 
   const lastUpdatedUnixTime = weatherObj.current.last_updated_epoch;
   updatedTimeElement.textContent = getLastUpdatedTime(lastUpdatedUnixTime);
