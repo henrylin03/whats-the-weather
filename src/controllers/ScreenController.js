@@ -6,29 +6,23 @@ import { getUnit } from "../components/header/unitToggles";
 const createScreenController = () => {
   const searchBarElement = document.querySelector("#searchbar");
 
-  // figure out which unit is being selected right now
-  // console.log(getUnit());
-  // pass that unit into display() as an arg
-
-  // update each of the subsequent components accordingly
-
-  const display = (locationId) => {
+  const display = (locationId, unit) => {
     header();
-    todayDetails(locationId);
-    forecast(locationId);
+    todayDetails(locationId, unit);
+    forecast(locationId, unit);
   };
 
   const displayWeatherOfLocation = (e) => {
     const locationId = e.target.dataset.locationid;
     if (locationId === undefined) return;
-    display(locationId);
+    display(locationId, getUnit());
   };
 
   searchBarElement.addEventListener("change", displayWeatherOfLocation);
 
   // run
   const initialLocationId = "136022"; // sydney
-  display(initialLocationId);
+  display(initialLocationId, getUnit());
 };
 
 export default createScreenController;
