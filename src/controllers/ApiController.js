@@ -1,5 +1,5 @@
 const API_KEY = "59be934c1e9141e8847232908240207";
-const BASE_URL = "http://api.weatherapi.com/v1";
+const BASE_URL = "https://api.weatherapi.com/v1";
 
 const getWeather = async (locationId) => {
   const FORECAST_DAYS = 3; // today counts as 1 day
