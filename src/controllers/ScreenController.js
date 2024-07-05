@@ -5,24 +5,39 @@ import { getUnit } from "../components/header/unitToggles";
 
 const createScreenController = () => {
   const searchBarElement = document.querySelector("#searchbar");
+  const btnsContainer = document.querySelector(".unit-btns");
+  const unitBtns = [...btnsContainer.children];
 
-  const display = (locationId, unit) => {
-    header();
-    todayDetails(locationId, unit);
-    forecast(locationId, unit);
-  };
+  // initial states
+  let locationId = "136022"; // sydney
+  let unit = getUnit(); // celsius or fahrenheit
 
+  // event handlers
   const displayWeatherOfLocation = (e) => {
-    const locationId = e.target.dataset.locationid;
-    if (locationId === undefined) return;
-    display(locationId, getUnit());
+    const selectedLocationId = e.target.dataset.locationid;
+    if (selectedLocationId === undefined) return;
+    locationId = selectedLocationId;
+    display(locationId, unit);
   };
 
+  const updateUnits = (e) => {
+    if (e.target.classList.contains("selected")) return;
+    unit = e.target.id;
+    display(locationId, unit);
+  };
+
+  // attach event listeners
   searchBarElement.addEventListener("change", displayWeatherOfLocation);
+  unitBtns.forEach((btn) => btn.addEventListener("mousedown", updateUnits));
 
   // run
-  const initialLocationId = "136022"; // sydney
-  display(initialLocationId, getUnit());
+  display(locationId, getUnit());
+};
+
+const display = (locationId, unit) => {
+  header();
+  todayDetails(locationId, unit);
+  forecast(locationId, unit);
 };
 
 export default createScreenController;
