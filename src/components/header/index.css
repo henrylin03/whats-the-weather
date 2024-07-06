@@ -59,7 +59,7 @@ search {
   height: 40px;
   width: 40px;
   background-color: var(--lighter-clr);
-  mask-image: url("./map-pin.svg");
+  mask-image: url("./searchBar/map-pin.svg");
   mask-repeat: no-repeat;
 }
 
