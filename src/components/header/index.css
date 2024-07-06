@@ -29,7 +29,7 @@ search {
   width: 100%;
   border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
-  padding: 8px 13px 8px 35px;
+  padding: 10px 13px 10px 35px;
 }
 
 #searchbar:focus {
@@ -123,7 +123,7 @@ search {
 .unit-btn {
   background-color: hsl(202, 95%, 80%);
   color: var(--dark-clr);
-  padding: 8px 15px;
+  padding: 10px 15px;
   float: left;
   font-weight: 500;
   transition: filter 0.1s;
