@@ -29,7 +29,7 @@ search {
   width: 100%;
   border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
-  padding: 8px 35px;
+  padding: 8px 13px 8px 35px;
 }
 
 #searchbar:focus {
