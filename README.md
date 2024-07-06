@@ -23,6 +23,8 @@
 
 <!-- ABOUT THE PROJECT -->
 
+[![Screenshot](./docs/screenshot.png)](https://henrylin.io/whats-the-weather/)
+
 <!-- CONTRIBUTING -->
 
 <!-- LICENSE -->
