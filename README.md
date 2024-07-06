@@ -2,6 +2,10 @@
 
 <!-- PROJECT SHIELDS -->
 
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -68,3 +72,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
+[issues-shield]: https://img.shields.io/github/issues/henrylin03/whats-the-weather.svg?style=for-the-badge
+[issues-url]: https://github.com/henrylin03/whats-the-weather/issues
+[license-shield]: https://img.shields.io/github/license/henrylin03/whats-the-weather.svg?style=for-the-badge
+[license-url]: https://github.com/henrylin03/whats-the-weather/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/henrylin03/
