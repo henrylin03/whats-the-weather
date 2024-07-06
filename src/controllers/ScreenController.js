@@ -4,6 +4,7 @@ import forecast from "../components/forecast";
 import { getUnit } from "../components/header/unitToggles";
 
 const createScreenController = () => {
+  const title = document.querySelector("#page-name");
   const searchBarElement = document.querySelector("#searchbar");
   const btnsContainer = document.querySelector(".unit-btns");
   const unitBtns = [...btnsContainer.children];
@@ -27,11 +28,12 @@ const createScreenController = () => {
   };
 
   // attach event listeners
+  title.addEventListener("mousedown", () => display(locationId, unit));
   searchBarElement.addEventListener("change", displayWeatherOfLocation);
   unitBtns.forEach((btn) => btn.addEventListener("mousedown", updateUnits));
 
   // run
-  display(locationId, getUnit());
+  display(locationId, unit);
 };
 
 const display = (locationId, unit) => {
