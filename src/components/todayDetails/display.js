@@ -13,7 +13,6 @@ const windSpeedElement = document.querySelector(
 const updatedTimeElement = document.querySelector(".last-updated-time");
 
 const display = (weatherObj, unit) => {
-  console.log(weatherObj);
   weatherIconElement.src = weatherObj.current.condition.icon;
 
   const currentTemp =
