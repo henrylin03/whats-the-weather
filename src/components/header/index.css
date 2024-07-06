@@ -16,20 +16,19 @@ search {
 .search-icon {
   width: 18px;
   height: 100%;
-  background-color: lightgray;
-  mask-image: url("./searchBar/search.svg");
-  mask-position: center;
-  mask-size: contain;
-  mask-repeat: no-repeat;
   position: absolute;
   left: 10px;
+}
+
+.search-icon svg {
+  color: hsl(0, 0%, 70%);
 }
 
 #searchbar {
   width: 100%;
   border: hsl(205, 46%, 48%) 1px solid;
   border-radius: 5px;
-  padding: 10px 13px 10px 35px;
+  padding: 10px 13px 10px 40px;
 }
 
 #searchbar:focus {
