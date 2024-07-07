@@ -9,14 +9,14 @@ code,day-night,condition,svg
 1009,day,Overcast,overcast-day
 1030,night,Mist,mist
 1030,day,Mist,mist
-1063,night,Patchy rain possible,drizzle
-1063,day,Patchy rain possible,drizzle
+1063,night,Patchy rain possible,partly-cloudy-night-drizzle
+1063,day,Patchy rain possible,partly-cloudy-day-drizzle
 1066,night,Patchy snow possible,snow
 1066,day,Patchy snow possible,snow
 1069,night,Patchy sleet possible,sleet
 1069,day,Patchy sleet possible,sleet
-1072,night,Patchy freezing drizzle possible,drizzle
-1072,day,Patchy freezing drizzle possible,drizzle
+1072,night,Patchy freezing drizzle possible,partly-cloudy-night-drizzle
+1072,day,Patchy freezing drizzle possible,partly-cloudy-day-drizzle
 1087,night,Thundery outbreaks possible,thunderstorms-night
 1087,day,Thundery outbreaks possible,thunderstorms-day
 1114,night,Blowing snow,snowflake
@@ -35,10 +35,10 @@ code,day-night,condition,svg
 1168,day,Freezing drizzle,drizzle
 1171,night,Heavy freezing drizzle,drizzle
 1171,day,Heavy freezing drizzle,drizzle
-1180,night,Patchy light rain,partly-cloudy-night-rain
-1180,day,Patchy light rain,partly-cloudy-day-rain
-1183,night,Light rain,drizzle
-1183,day,Light rain,drizzle
+1180,night,Patchy light rain,partly-cloudy-night-drizzle
+1180,day,Patchy light rain,partly-cloudy-day-drizzle
+1183,night,Light rain,partly-cloudy-night-drizzle
+1183,day,Light rain,partly-cloudy-day-drizzle
 1186,night,Moderate rain at times,rain
 1186,day,Moderate rain at times,rain
 1189,night,Moderate rain,rain

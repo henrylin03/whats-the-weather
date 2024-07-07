@@ -63,12 +63,12 @@
     {
       "day-night": "night",
       "condition": "Patchy rain possible",
-      "svg": "drizzle"
+      "svg": "partly-cloudy-night-drizzle"
     },
     {
       "day-night": "day",
       "condition": "Patchy rain possible",
-      "svg": "drizzle"
+      "svg": "partly-cloudy-day-drizzle"
     }
   ],
   "1066": [
@@ -99,12 +99,12 @@
     {
       "day-night": "night",
       "condition": "Patchy freezing drizzle possible",
-      "svg": "drizzle"
+      "svg": "partly-cloudy-night-drizzle"
     },
     {
       "day-night": "day",
       "condition": "Patchy freezing drizzle possible",
-      "svg": "drizzle"
+      "svg": "partly-cloudy-day-drizzle"
     }
   ],
   "1087": [
@@ -219,24 +219,24 @@
     {
       "day-night": "night",
       "condition": "Patchy light rain",
-      "svg": "partly-cloudy-night-rain"
+      "svg": "partly-cloudy-night-drizzle"
     },
     {
       "day-night": "day",
       "condition": "Patchy light rain",
-      "svg": "partly-cloudy-day-rain"
+      "svg": "partly-cloudy-day-drizzle"
     }
   ],
   "1183": [
     {
       "day-night": "night",
       "condition": "Light rain",
-      "svg": "drizzle"
+      "svg": "partly-cloudy-night-drizzle"
     },
     {
       "day-night": "day",
       "condition": "Light rain",
-      "svg": "drizzle"
+      "svg": "partly-cloudy-day-drizzle"
     }
   ],
   "1186": [
