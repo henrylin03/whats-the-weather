@@ -50,15 +50,11 @@ WhatsTheWeather calls the [Weather API](https://www.weatherapi.com/)'s "Realtime
 
 If you have a suggestion that would make WhatsTheWeather better, please feel free to [add an issue](https://github.com/henrylin03/whats-the-weather/issues/new) and/or fork and create a pull request.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Acknowledgements
 
