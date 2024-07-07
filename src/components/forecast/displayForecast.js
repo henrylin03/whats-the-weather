@@ -2,6 +2,7 @@ const forecastSection = document.querySelector("#forecast");
 const cards = [...forecastSection.children];
 
 const displayForecast = (forecastArr, unit) => {
+  console.log(forecastArr);
   forecastArr.forEach((day, idx) => {
     const currentCard = cards[idx];
     const maxTempValue =
@@ -18,8 +19,9 @@ const displayForecast = (forecastArr, unit) => {
     const weatherTextElement = currentCard.querySelector(".weather");
     weatherTextElement.textContent = day.day.condition.text;
 
+    const conditionCode = day.day.condition.code;
     const weatherImgElement = currentCard.querySelector(".icon img");
-    weatherImgElement.src = day.day.condition.icon;
+    // weatherImgElement.src = day.day.condition.icon;
 
     const maxTempElement = currentCard.querySelector(".max-temp");
     maxTempElement.textContent = `${maxTempValue.toFixed(0)}°`;

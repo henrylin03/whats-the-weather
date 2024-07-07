@@ -1,6 +1,6 @@
-import map from "../data/conditions_to_icon_map.json";
+import map from "../data/current_conditions_to_icon_map.json";
 
-const getConditionIconUrl = (conditionCode, isDay) => {
+const getCurrentConditionIconUrl = (conditionCode, isDay) => {
   const BASE_URL =
     "https://basmilius.github.io/weather-icons/production/fill/all";
 
@@ -10,4 +10,4 @@ const getConditionIconUrl = (conditionCode, isDay) => {
   return `${BASE_URL}/${svgFileName}`;
 };
 
-export default getConditionIconUrl;
+export default getCurrentConditionIconUrl;

@@ -1,4 +1,4 @@
-import getConditionIconUrl from "../../helpers/getConditionIconUrl";
+import getCurrentConditionIconUrl from "../../helpers/getCurrentConditionIconUrl";
 
 const weatherIconElement = document.querySelector(
   "#today-details .weather img",
@@ -15,11 +15,12 @@ const windSpeedElement = document.querySelector(
 const updatedTimeElement = document.querySelector(".last-updated-time");
 
 const display = (weatherObj, unit) => {
-  console.log(weatherObj);
-
   const currentConditionCode = weatherObj.current.condition.code;
   const isDay = weatherObj.current.is_day;
-  weatherIconElement.src = getConditionIconUrl(currentConditionCode, isDay);
+  weatherIconElement.src = getCurrentConditionIconUrl(
+    currentConditionCode,
+    isDay,
+  );
 
   const currentTemp =
     unit === "celsius" ? weatherObj.current.temp_c : weatherObj.current.temp_f;
