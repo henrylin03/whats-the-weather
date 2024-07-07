@@ -1,0 +1,194 @@
+{
+  "1000": {
+    "condition": "Sunny",
+    "svg": "clear-day"
+  },
+  "1003": {
+    "condition": "Partly cloudy",
+    "svg": "partly-cloudy-day"
+  },
+  "1006": {
+    "condition": "Cloudy",
+    "svg": "cloudy"
+  },
+  "1009": {
+    "condition": "Overcast",
+    "svg": "overcast"
+  },
+  "1030": {
+    "condition": "Mist",
+    "svg": "mist"
+  },
+  "1063": {
+    "condition": "Patchy rain possible",
+    "svg": "drizzle"
+  },
+  "1066": {
+    "condition": "Patchy snow possible",
+    "svg": "snow"
+  },
+  "1069": {
+    "condition": "Patchy sleet possible",
+    "svg": "sleet"
+  },
+  "1072": {
+    "condition": "Patchy freezing drizzle possible",
+    "svg": "drizzle"
+  },
+  "1087": {
+    "condition": "Thundery outbreaks possible",
+    "svg": "thunderstorms"
+  },
+  "1114": {
+    "condition": "Blowing snow",
+    "svg": "snowflake"
+  },
+  "1117": {
+    "condition": "Blizzard",
+    "svg": "thunderstorms-snow"
+  },
+  "1135": {
+    "condition": "Fog",
+    "svg": "fog"
+  },
+  "1147": {
+    "condition": "Freezing fog",
+    "svg": "fog"
+  },
+  "1150": {
+    "condition": "Patchy light drizzle",
+    "svg": "drizzle"
+  },
+  "1153": {
+    "condition": "Light drizzle",
+    "svg": "drizzle"
+  },
+  "1168": {
+    "condition": "Freezing drizzle",
+    "svg": "drizzle"
+  },
+  "1171": {
+    "condition": "Heavy freezing drizzle",
+    "svg": "drizzle"
+  },
+  "1180": {
+    "condition": "Patchy light rain",
+    "svg": "drizzle"
+  },
+  "1183": {
+    "condition": "Light rain",
+    "svg": "drizzle"
+  },
+  "1186": {
+    "condition": "Moderate rain at times",
+    "svg": "rain"
+  },
+  "1189": {
+    "condition": "Moderate rain",
+    "svg": "rain"
+  },
+  "1192": {
+    "condition": "Heavy rain at times",
+    "svg": "rain"
+  },
+  "1195": {
+    "condition": "Heavy rain",
+    "svg": "rain"
+  },
+  "1198": {
+    "condition": "Light freezing rain",
+    "svg": "rain"
+  },
+  "1201": {
+    "condition": "Moderate or heavy freezing rain",
+    "svg": "rain"
+  },
+  "1204": {
+    "condition": "Light sleet",
+    "svg": "sleet"
+  },
+  "1207": {
+    "condition": "Moderate or heavy sleet",
+    "svg": "sleet"
+  },
+  "1210": {
+    "condition": "Patchy light snow",
+    "svg": "partly-cloudy-day-snow"
+  },
+  "1213": {
+    "condition": "Light snow",
+    "svg": "snow"
+  },
+  "1216": {
+    "condition": "Patchy moderate snow",
+    "svg": "snow"
+  },
+  "1219": {
+    "condition": "Moderate snow",
+    "svg": "snow"
+  },
+  "1222": {
+    "condition": "Patchy heavy snow",
+    "svg": "snow"
+  },
+  "1225": {
+    "condition": "Heavy snow",
+    "svg": "snow"
+  },
+  "1237": {
+    "condition": "Ice pellets",
+    "svg": "hail"
+  },
+  "1240": {
+    "condition": "Light rain shower",
+    "svg": "rain"
+  },
+  "1243": {
+    "condition": "Moderate or heavy rain shower",
+    "svg": "rain"
+  },
+  "1246": {
+    "condition": "Torrential rain shower",
+    "svg": "rain"
+  },
+  "1249": {
+    "condition": "Light sleet showers",
+    "svg": "sleet"
+  },
+  "1252": {
+    "condition": "Moderate or heavy sleet showers",
+    "svg": "sleet"
+  },
+  "1255": {
+    "condition": "Light snow showers",
+    "svg": "sleet"
+  },
+  "1258": {
+    "condition": "Moderate or heavy snow showers",
+    "svg": "sleet"
+  },
+  "1261": {
+    "condition": "Light showers of ice pellets",
+    "svg": "partly-cloudy-day-hail"
+  },
+  "1264": {
+    "condition": "Moderate or heavy showers of ice pellets",
+    "svg": "hail"
+  },
+  "1273": {
+    "condition": "Patchy light rain with thunder",
+    "svg": "thunderstorms-rain"
+  },
+  "1276": {
+    "condition": "Moderate or heavy rain with thunder",
+    "svg": "thunderstorms-rain"
+  },
+  "1279": {
+    "condition": "Patchy light snow with thunder",
+    "svg": "thunderstorms-day-snow"
+  },
+  "1282": {
+    "condition": "Moderate or heavy snow with thunder",
+    "svg": "thunderstorms-snow"
+  }
+}

@@ -1,0 +1,97 @@
+code,day-night,condition,svg
+1000,night,Clear,clear-night
+1000,day,Sunny,clear-day
+1003,night,Partly cloudy,partly-cloudy-night
+1003,day,Partly cloudy,partly-cloudy-day
+1006,night,Cloudy,cloudy
+1006,day,Cloudy,cloudy
+1009,night,Overcast,overcast-night
+1009,day,Overcast,overcast-day
+1030,night,Mist,mist
+1030,day,Mist,mist
+1063,night,Patchy rain possible,partly-cloudy-night-drizzle
+1063,day,Patchy rain possible,partly-cloudy-day-drizzle
+1066,night,Patchy snow possible,snow
+1066,day,Patchy snow possible,snow
+1069,night,Patchy sleet possible,sleet
+1069,day,Patchy sleet possible,sleet
+1072,night,Patchy freezing drizzle possible,partly-cloudy-night-drizzle
+1072,day,Patchy freezing drizzle possible,partly-cloudy-day-drizzle
+1087,night,Thundery outbreaks possible,thunderstorms-night
+1087,day,Thundery outbreaks possible,thunderstorms-day
+1114,night,Blowing snow,snowflake
+1114,day,Blowing snow,snowflake
+1117,night,Blizzard,thunderstorms-snow
+1117,day,Blizzard,thunderstorms-snow
+1135,night,Fog,fog-night
+1135,day,Fog,fog-day
+1147,night,Freezing fog,fog
+1147,day,Freezing fog,fog
+1150,night,Patchy light drizzle,partly-cloudy-night-drizzle
+1150,day,Patchy light drizzle,partly-cloudy-day-drizzle
+1153,night,Light drizzle,partly-cloudy-night-drizzle
+1153,day,Light drizzle,partly-cloudy-day-drizzle
+1168,night,Freezing drizzle,drizzle
+1168,day,Freezing drizzle,drizzle
+1171,night,Heavy freezing drizzle,drizzle
+1171,day,Heavy freezing drizzle,drizzle
+1180,night,Patchy light rain,partly-cloudy-night-drizzle
+1180,day,Patchy light rain,partly-cloudy-day-drizzle
+1183,night,Light rain,partly-cloudy-night-drizzle
+1183,day,Light rain,partly-cloudy-day-drizzle
+1186,night,Moderate rain at times,rain
+1186,day,Moderate rain at times,rain
+1189,night,Moderate rain,rain
+1189,day,Moderate rain,rain
+1192,night,Heavy rain at times,rain
+1192,day,Heavy rain at times,rain
+1195,night,Heavy rain,rain
+1195,day,Heavy rain,rain
+1198,night,Light freezing rain,rain
+1198,day,Light freezing rain,rain
+1201,night,Moderate or heavy freezing rain,rain
+1201,day,Moderate or heavy freezing rain,rain
+1204,night,Light sleet,partly-cloudy-night-sleet
+1204,day,Light sleet,partly-cloudy-day-sleet
+1207,night,Moderate or heavy sleet,sleet
+1207,day,Moderate or heavy sleet,sleet
+1210,night,Patchy light snow,partly-cloudy-night-snow
+1210,day,Patchy light snow,partly-cloudy-day-snow
+1213,night,Light snow,snow
+1213,day,Light snow,snow
+1216,night,Patchy moderate snow,snow
+1216,day,Patchy moderate snow,snow
+1219,night,Moderate snow,snow
+1219,day,Moderate snow,snow
+1222,night,Patchy heavy snow,snow
+1222,day,Patchy heavy snow,snow
+1225,night,Heavy snow,snow
+1225,day,Heavy snow,snow
+1237,night,Ice pellets,hail
+1237,day,Ice pellets,hail
+1240,night,Light rain shower,rain
+1240,day,Light rain shower,rain
+1243,night,Moderate or heavy rain shower,rain
+1243,day,Moderate or heavy rain shower,rain
+1246,night,Torrential rain shower,rain
+1246,day,Torrential rain shower,rain
+1249,night,Light sleet showers,sleet
+1249,day,Light sleet showers,sleet
+1252,night,Moderate or heavy sleet showers,sleet
+1252,day,Moderate or heavy sleet showers,sleet
+1255,night,Light snow showers,sleet
+1255,day,Light snow showers,sleet
+1258,night,Moderate or heavy snow showers,sleet
+1258,day,Moderate or heavy snow showers,sleet
+1261,night,Light showers of ice pellets,partly-cloudy-night-hail
+1261,day,Light showers of ice pellets,partly-cloudy-day-hail
+1264,night,Moderate or heavy showers of ice pellets,hail
+1264,day,Moderate or heavy showers of ice pellets,hail
+1273,night,Patchy light rain with thunder,thunderstorms-rain
+1273,day,Patchy light rain with thunder,thunderstorms-rain
+1276,night,Moderate or heavy rain with thunder,thunderstorms-rain
+1276,day,Moderate or heavy rain with thunder,thunderstorms-rain
+1279,night,Patchy light snow with thunder,thunderstorms-night-snow
+1279,day,Patchy light snow with thunder,thunderstorms-day-snow
+1282,night,Moderate or heavy snow with thunder,thunderstorms-snow
+1282,day,Moderate or heavy snow with thunder,thunderstorms-snow
