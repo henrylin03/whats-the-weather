@@ -13,7 +13,4 @@ const unitToggles = () => {
   );
 };
 
-const getUnit = () =>
-  unitBtns.find((btnElement) => btnElement.classList.contains("selected")).id;
-
-export { unitToggles, getUnit };
+export default unitToggles;

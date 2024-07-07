@@ -1,7 +1,6 @@
 import header from "../components/header";
 import todayDetails from "../components/todayDetails";
 import forecast from "../components/forecast";
-import { getUnit } from "../components/header/unitToggles";
 
 const createScreenController = () => {
   const title = document.querySelector("#page-name");
@@ -11,7 +10,7 @@ const createScreenController = () => {
 
   // initial states
   let locationId = "136022"; // sydney
-  let unit = getUnit(); // celsius or fahrenheit
+  let unit = "celsius";
 
   // event handlers
   const displayWeatherOfLocation = (e) => {
