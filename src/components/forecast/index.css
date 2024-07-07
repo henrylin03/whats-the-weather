@@ -39,6 +39,12 @@
   font-size: 0.7rem;
 }
 
+.card .icon {
+  height: 75px;
+  width: 75px;
+  filter: brightness(0.97);
+}
+
 .temperature {
   font-size: 2rem;
 }
