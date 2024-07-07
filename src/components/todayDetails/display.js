@@ -1,4 +1,4 @@
-import getWeatherIcon from "../../helpers/getWeatherIcon";
+import getConditionIconFilename from "../../helpers/getConditionIconFilename";
 
 const weatherIconElement = document.querySelector(
   "#today-details .condition-icon",
@@ -19,7 +19,7 @@ const display = (weatherObj, unit) => {
 
   const currentConditionCode = weatherObj.current.condition.code;
   const isDay = weatherObj.current.is_day;
-  getWeatherIcon(currentConditionCode, isDay);
+  getConditionIconFilename(currentConditionCode, isDay);
 
   // weatherIconElement.src = weatherObj.current.condition.icon;
 
