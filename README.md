@@ -48,7 +48,7 @@ WhatsTheWeather calls the [Weather API](https://www.weatherapi.com/)'s "Realtime
 
 ## Contributing
 
-If you have a suggestion that would make Tasks better, please feel free to add an issue and/or fork and create a pull request.
+If you have a suggestion that would make WhatsTheWeather better, please feel free to [add an issue](https://github.com/henrylin03/whats-the-weather/issues/new) and/or fork and create a pull request.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
