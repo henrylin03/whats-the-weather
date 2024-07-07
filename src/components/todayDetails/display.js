@@ -17,7 +17,9 @@ const updatedTimeElement = document.querySelector(".last-updated-time");
 const display = (weatherObj, unit) => {
   console.log(weatherObj);
 
-  getWeatherIcon();
+  const currentConditionCode = weatherObj.current.condition.code;
+  const isDay = weatherObj.current.is_day;
+  getWeatherIcon(currentConditionCode, isDay);
 
   // weatherIconElement.src = weatherObj.current.condition.icon;
 
