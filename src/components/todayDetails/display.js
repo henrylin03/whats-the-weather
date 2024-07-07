@@ -1,3 +1,5 @@
+import getWeatherIcon from "../../helpers/getWeatherIcon";
+
 const weatherIconElement = document.querySelector(
   "#today-details .condition-icon",
 );
@@ -14,6 +16,9 @@ const updatedTimeElement = document.querySelector(".last-updated-time");
 
 const display = (weatherObj, unit) => {
   console.log(weatherObj);
+
+  getWeatherIcon();
+
   // weatherIconElement.src = weatherObj.current.condition.icon;
 
   const currentTemp =
