@@ -1,7 +1,7 @@
-import getConditionIconFilename from "../../helpers/getConditionIconFilename";
+import getConditionIconUrl from "../../helpers/getConditionIconUrl";
 
 const weatherIconElement = document.querySelector(
-  "#today-details .condition-icon",
+  "#today-details .weather img",
 );
 const currentTemperatureElement = document.querySelector(
   "#today-details .temperature-text",
@@ -19,9 +19,7 @@ const display = (weatherObj, unit) => {
 
   const currentConditionCode = weatherObj.current.condition.code;
   const isDay = weatherObj.current.is_day;
-  getConditionIconFilename(currentConditionCode, isDay);
-
-  // weatherIconElement.src = weatherObj.current.condition.icon;
+  weatherIconElement.src = getConditionIconUrl(currentConditionCode, isDay);
 
   const currentTemp =
     unit === "celsius" ? weatherObj.current.temp_c : weatherObj.current.temp_f;
