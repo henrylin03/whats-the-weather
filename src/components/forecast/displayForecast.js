@@ -4,7 +4,6 @@ const forecastSection = document.querySelector("#forecast");
 const cards = [...forecastSection.children];
 
 const displayForecast = (forecastArr, unit) => {
-  console.log(forecastArr);
   forecastArr.forEach((day, idx) => {
     const currentCard = cards[idx];
     const maxTempValue =
