@@ -27,6 +27,15 @@ search {
   box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+.clear-text-btn {
+  height: 100%;
+  width: 15px;
+  background-color: transparent;
+  color: var(--mid-clr);
+  position: absolute;
+  right: 15px;
+}
+
 .results-container {
   position: absolute;
   display: none;
