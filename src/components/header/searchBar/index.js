@@ -4,14 +4,22 @@ import { searchCity } from "../../../controllers/ApiController";
 const searchBarElement = document.querySelector("#searchbar");
 const searchResultsContainerElement =
   document.querySelector(".results-container");
+const clearSearchBarBtn = document.querySelector(".clear-text-btn");
 
 const searchBar = () => {
   searchBarElement.addEventListener("input", handleSearchInput);
+
   searchBarElement.addEventListener("focus", (e) => {
-    e.target.select(); // select all text, ready for deletion
+    if (e.target.value) {
+      e.target.select(); // select all text, ready for deletion
+      clearSearchBarBtn.classList.remove("hidden");
+    }
     handleSearchInput();
   });
+
   searchBarElement.addEventListener("blur", hideSearchResultsContainer);
+
+  clearSearchBarBtn.addEventListener("mousedown", handleClickOnClearSearchBtn);
 };
 
 const handleSearchInput = async () => {
@@ -81,6 +89,12 @@ const informSearchBarOfSelectedLocation = (locationObject) => {
 const hideSearchResultsContainer = () => {
   searchResultsContainerElement.classList.remove("no-results");
   searchResultsContainerElement.classList.remove("results");
+};
+
+const handleClickOnClearSearchBtn = () => {
+  searchBarElement.value = "";
+  clearSearchBarBtn.classList.add("hidden");
+  hideSearchResultsContainer();
 };
 
 export default searchBar;
