@@ -8,14 +8,12 @@ const searchBar = () => {
   searchBarElement.addEventListener("input", handleSearchInput);
   searchBarElement.addEventListener("focus", (e) => {
     e.target.select(); // select all text, ready for deletion
-    handleSearchInput;
+    handleSearchInput();
   });
   searchBarElement.addEventListener("blur", hideSearchResultsContainer);
 };
 
 const handleSearchInput = async () => {
-  hideSearchResultsContainer();
-
   const searchInput = searchBarElement.value;
   if (searchInput.trim().length < 3) return;
 
