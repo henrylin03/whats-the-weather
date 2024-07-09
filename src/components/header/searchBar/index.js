@@ -1,3 +1,4 @@
+import "./index.css";
 import { searchCity } from "../../../controllers/ApiController";
 
 const searchBarElement = document.querySelector("#searchbar");
