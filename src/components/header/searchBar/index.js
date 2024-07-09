@@ -17,7 +17,7 @@ const searchBar = () => {
     handleSearchInput;
   });
 
-  searchBarElement.addEventListener("blur", hideSearchResultsContainer);
+  searchBarElement.addEventListener("blur", handleBlurOnSearchbar);
 
   clearSearchBarBtn.addEventListener("mousedown", handleClickOnClearSearchBtn);
 };
@@ -94,6 +94,11 @@ const hideSearchResultsContainer = () => {
 
 const handleClickOnClearSearchBtn = () => {
   searchBarElement.value = "";
+  clearSearchBarBtn.classList.add("hidden");
+  hideSearchResultsContainer();
+};
+
+const handleBlurOnSearchbar = () => {
   clearSearchBarBtn.classList.add("hidden");
   hideSearchResultsContainer();
 };
