@@ -8,16 +8,15 @@ const clearSearchBarBtn = document.querySelector(".clear-text-btn");
 
 const searchBar = () => {
   searchBarElement.addEventListener("input", handleSearchInput);
-
   searchBarElement.addEventListener("focus", (e) => {
-    if (e.target.value) {
-      e.target.select(); // select all text, ready for deletion
-      clearSearchBarBtn.classList.remove("hidden");
-    }
+    if (e.target.value) e.target.select();
     handleSearchInput();
   });
-
-  searchBarElement.addEventListener("blur", handleBlurOnSearchbar);
+  searchBarElement.addEventListener("blur", hideSearchResultsContainer);
+  searchBarElement.addEventListener("change", (e) => {
+    if (e.target.value) clearSearchBarBtn.classList.remove("hidden");
+    else clearSearchBarBtn.classList.add("hidden");
+  });
 
   clearSearchBarBtn.addEventListener("mousedown", handleClickOnClearSearchBtn);
 };
@@ -94,11 +93,6 @@ const hideSearchResultsContainer = () => {
 
 const handleClickOnClearSearchBtn = () => {
   searchBarElement.value = "";
-  clearSearchBarBtn.classList.add("hidden");
-  hideSearchResultsContainer();
-};
-
-const handleBlurOnSearchbar = () => {
   clearSearchBarBtn.classList.add("hidden");
   hideSearchResultsContainer();
 };
