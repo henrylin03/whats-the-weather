@@ -1,3 +1,5 @@
+import "./index.css";
+
 const btnsContainer = document.querySelector(".unit-btns");
 const unitBtns = [...btnsContainer.children];
 
