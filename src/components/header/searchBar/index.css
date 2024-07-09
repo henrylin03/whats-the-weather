@@ -34,6 +34,11 @@ search {
   color: var(--mid-clr);
   position: absolute;
   right: 15px;
+  visibility: visible;
+}
+
+.clear-text-btn.hidden {
+  visibility: hidden;
 }
 
 .results-container {
