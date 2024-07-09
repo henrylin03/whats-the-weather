@@ -24,6 +24,7 @@ const searchBar = () => {
 
 const handleSearchInput = async () => {
   const searchInput = searchBarElement.value;
+  if (searchInput) clearSearchBarBtn.classList.remove("hidden");
   if (searchInput.trim().length < 3) return;
 
   const resultsArray = await searchCity(searchBarElement.value);
