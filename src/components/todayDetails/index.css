@@ -1,6 +1,5 @@
 #today-details {
   height: 40dvh;
-  background: linear-gradient(var(--gradient-top-clr), var(--lighter-clr));
   border-radius: 10px;
   box-shadow: var(--darker-shadow);
   color: white;
@@ -11,6 +10,14 @@
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1fr;
   align-items: end;
+}
+
+#today-details.day {
+  background: linear-gradient(var(--gradient-top-clr), var(--lighter-clr));
+}
+
+#today-details.night {
+  background: linear-gradient(#042b49, #0f5f8a);
 }
 
 #today-details .left {
