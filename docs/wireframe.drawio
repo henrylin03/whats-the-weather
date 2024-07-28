@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-28T10:08:36.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="17kwTzEPVjXwXQGtZHLJ" version="24.7.3" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-28T10:17:31.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="K5mVn-N_MkGCsGRngc0j" version="24.7.3" type="device" pages="2">
   <diagram id="piDafpqhtRUU5qUU-vj8" name="wireframe">
-    <mxGraphModel dx="8620" dy="3660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="6046" dy="2335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -242,10 +242,244 @@
           <mxGeometry x="27.5" y="10" width="25" height="20" as="geometry" />
         </mxCell>
         <UserObject label="icons" link="https://cdn.dribbble.com/userupload/13245589/file/original-3d51732ce426257dc71af197c5a0d9c8.jpg?resize=1024x768" linkTarget="_blank" id="QtGz55be-kDc_jq18RgC-1">
-          <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
-            <mxGeometry x="-2809" y="-120" width="560" height="50" as="geometry" />
+          <mxCell style="text;whiteSpace=wrap;fontStyle=1;fontSize=21;" parent="1" vertex="1">
+            <mxGeometry x="-2910" y="306" width="30" height="50" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;aspect=fixed;fillColor=none;rotation=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="54" width="1940" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;strokeColor=none;fillColor=#e4eff6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="170" y="164" width="1940" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-3" value="What&#39;s the ..." style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="66" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="114" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot; style=&quot;font-size: 30px;&quot;&gt;WhatsThe&lt;b&gt;Weather&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;" vertex="1" parent="1">
+          <mxGeometry x="560" y="246.5" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-6" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;shadow=1;strokeColor=none;fillColor=#042b49;gradientColor=#0f5f8a;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="560" y="318" width="1090" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="934" y="239" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-8" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Open Sans&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Open+Sans&quot; color=&quot;#c4c4c4&quot;&gt;Search for a location&lt;/font&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeColor=#4283B3;shadow=1;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-7">
+          <mxGeometry width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-9" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#B3B3B3;shadow=0;dashed=0;shape=mxgraph.ios7.icons.looking_glass;fillColor=none;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-7">
+          <mxGeometry x="10.82" y="12.5" width="16.18" height="16.06" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-10" value="" style="group;shadow=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1557" y="237" width="90" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-11" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=17;strokeColor=none;fillColor=#b1d3e7;shadow=1;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-10">
+          <mxGeometry y="5" width="90" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-12" value="&lt;b&gt;°F&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fillColor=none;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-10">
+          <mxGeometry x="54.25" y="13" width="24.75" height="23.93" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-13" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#33658a;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-10">
+          <mxGeometry x="28" y="5" width="19" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-14" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;°C&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;strokeColor=none;fillColor=#33658a;arcSize=18;perimeter=rectanglePerimeter;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-10">
+          <mxGeometry y="5" width="43" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-15" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot; color=&quot;#ffffff&quot;&gt;Sydney, Australia&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1434.75" y="621" width="194.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-16" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Montserrat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;10:00 pm&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1434.75" y="588" width="194.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-17" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="606.8800000000001" y="515" width="120" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-18" value="&lt;font style=&quot;font-size: 15px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; color=&quot;#ffffff&quot;&gt;Clear&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;textOpacity=70;" vertex="1" parent="1">
+          <mxGeometry x="605.8800000000001" y="486" width="121" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="970" y="598" width="128.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-20" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot; face=&quot;Montserrat&quot;&gt;5%&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-19">
+          <mxGeometry x="48.75" y="3" width="40" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-21" value="&lt;font style=&quot;font-size: 10px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; color=&quot;#ffffff&quot;&gt;Chance of rain&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-19">
+          <mxGeometry x="48.75" y="-5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLXVtYnJlbGxhIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSIjZmZmZmZmIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGhlaWdodD0iMjQiIHdpZHRoPSIyNCI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgc3Ryb2tlPSJub25lIi8+PHBhdGggZD0iTTQgMTJhOCA4IDAgMCAxIDE2IDB6Ii8+PHBhdGggZD0iTTEyIDEydjZhMiAyIDAgMCAwIDQgMCIvPjwvc3ZnPg==;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-19">
+          <mxGeometry width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="755.8800000000001" y="521" width="167.25" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-24" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Montserrat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 150px;&quot;&gt;15&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-23">
+          <mxGeometry width="140" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#FFFFFF;strokeWidth=4;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-23">
+          <mxGeometry x="147" y="6" width="20.25" height="20.25" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="599" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot; face=&quot;Montserrat&quot;&gt;11&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 20px;&quot; face=&quot;Montserrat&quot;&gt;km/h&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;" vertex="1" parent="1">
+          <mxGeometry x="1216.75" y="605" width="131.25" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-28" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Wind speed&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;textOpacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1216.75" y="595" width="80" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-29" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="724" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-30" value="&lt;font face=&quot;Montserrat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 15px;&quot;&gt;Today&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=15;textOpacity=70;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="585" y="744" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-31" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 12px;&quot;&gt;Clear&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;textOpacity=70;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" vertex="1" parent="1">
+          <mxGeometry x="585" y="777" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="639.75" y="874" width="100.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-33" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;19&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-32">
+          <mxGeometry y="9" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-32">
+          <mxGeometry x="40" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-35" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;/ 7&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-32">
+          <mxGeometry x="46" width="45.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;opacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-32">
+          <mxGeometry x="94.5" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-37" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="820.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-38" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="724" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-39" value="&lt;font face=&quot;Montserrat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 15px;&quot;&gt;Tomorrow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=15;textOpacity=70;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="865" y="743" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-40" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 12px;&quot;&gt;Sunny&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;textOpacity=70;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" vertex="1" parent="1">
+          <mxGeometry x="865" y="776" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="919.75" y="874" width="100.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-42" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;19&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-41">
+          <mxGeometry y="9" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-43" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-41">
+          <mxGeometry x="40" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-44" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;/ 7&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-41">
+          <mxGeometry x="46" width="45.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;opacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-41">
+          <mxGeometry x="94.5" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-46" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="940" y="819.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-47" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="724" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-48" value="&lt;font face=&quot;Montserrat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 15px;&quot;&gt;Thursday&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=15;textOpacity=70;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1140" y="744" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-49" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 12px;&quot;&gt;Partly cloudy&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;textOpacity=70;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="777" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-50" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1191.5" y="874" width="100.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-51" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;17&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-50">
+          <mxGeometry y="9" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-50">
+          <mxGeometry x="40" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-53" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;/ 7&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-50">
+          <mxGeometry x="46" width="45.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-54" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;opacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-50">
+          <mxGeometry x="94.5" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-55" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1216.75" y="820.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-56" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="724" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-57" value="&lt;font face=&quot;Montserrat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 15px;&quot;&gt;Friday&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=15;textOpacity=70;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1425" y="744" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-58" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 12px;&quot;&gt;Showers&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;textOpacity=70;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="777" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1474.75" y="874" width="100.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-60" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;17&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-59">
+          <mxGeometry y="9" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-61" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-59">
+          <mxGeometry x="40" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-62" value="&lt;font style=&quot;font-size: 35px;&quot; face=&quot;Montserrat&quot;&gt;/ 7&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;fontSize=60;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-59">
+          <mxGeometry x="46" width="45.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-63" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#080808;strokeWidth=1;fontColor=default;opacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-59">
+          <mxGeometry x="94.5" y="31" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-64" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="820.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-65" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="645" y="952" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-66" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 8px;&quot;&gt;Chance of rain&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-65">
+          <mxGeometry width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-67" value="&lt;font face=&quot;Montserrat&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot;&gt;5%&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-65">
+          <mxGeometry x="27.5" y="10" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-68" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="930" y="952" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-69" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 8px;&quot;&gt;Chance of rain&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-68">
+          <mxGeometry width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-70" value="&lt;font face=&quot;Montserrat&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot;&gt;5%&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-68">
+          <mxGeometry x="27.5" y="10" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-71" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1200" y="952" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-72" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 8px;&quot;&gt;Chance of rain&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-71">
+          <mxGeometry width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-73" value="&lt;font face=&quot;Montserrat&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot;&gt;5%&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-71">
+          <mxGeometry x="27.5" y="10" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1485" y="952" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-75" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; style=&quot;font-size: 8px;&quot;&gt;Chance of rain&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2F4858;fontSize=12;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;textOpacity=70;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-74">
+          <mxGeometry width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-76" value="&lt;font face=&quot;Montserrat&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot;&gt;80%&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fZpBqSzkKC7CL0hWjijt-74">
+          <mxGeometry x="27.5" y="10" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-77" value="day" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;" vertex="1" parent="1">
+          <mxGeometry x="-941" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZpBqSzkKC7CL0hWjijt-78" value="night" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
