@@ -1,5 +1,6 @@
 import getCurrentConditionIconUrl from "../../helpers/getCurrentConditionIconUrl";
 
+const todayDetailsContainer = document.querySelector("#today-details");
 const weatherIconElement = document.querySelector(
   "#today-details .weather img",
 );
@@ -17,6 +18,11 @@ const updatedTimeElement = document.querySelector(".last-updated-time");
 const display = (weatherObj, unit) => {
   const currentConditionCode = weatherObj.current.condition.code;
   const isDay = weatherObj.current.is_day;
+
+  const dayNightClass = isDay ? "day" : "night";
+  todayDetailsContainer.className = "";
+  todayDetailsContainer.classList.add(dayNightClass);
+
   weatherIconElement.src = getCurrentConditionIconUrl(
     currentConditionCode,
     isDay,
