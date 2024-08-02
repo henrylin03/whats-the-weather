@@ -1,7 +1,7 @@
 {
-  "name": "webpack-template",
+  "name": "whats-the-weather",
   "version": "1.0.0",
-  "description": "Template repository for Webpack setup so I don't have to keep setting up for every project :')",
+  "description": "Weather web app that allows you to find the current and forecasted weather anywhere around the world",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.prod.js",
